@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       {/* <Navbar /> */}
-      <h1>Homepage</h1>
+      <h1 className="text-3xl font-bold underline">Homepage</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi
         impedit suscipit architecto, odio inventore nostrum non neque dicta.
