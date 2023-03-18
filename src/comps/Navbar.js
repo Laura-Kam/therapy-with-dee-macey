@@ -2,60 +2,10 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav style={{ backgroundColor: "#95b8d1" }}>
+    <nav>
       <div className="navbar bg-base-100 {styles.navbar}">
         <div className="navbar-start">
-          <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
-            </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li className="item1">
-                <a>Item 1</a>
-              </li>
-              <li tabIndex={0}>
-                <a className="justify-between">
-                  Parent
-                  <svg
-                    className="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
-                </a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
-            </ul>
-          </div>
+          <div></div>
           <a className="btn btn-ghost normal-case text-xl">
             Dee Macey Therapist
           </a>
@@ -63,24 +13,26 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <a>What is RTT?</a>
+              <Link href="/whatisrtt">What is RTT?</Link>
             </li>
             <li>
-              <a>Treatment</a>
+              <Link href="/treatment">Treatment</Link>
             </li>
             <li>
-              <a>FAQs</a>
+              <Link href="/faq">FAQs</Link>
             </li>
             <li>
-              <a>About Me</a>
+              <Link href="/about">About Me</Link>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Contact me</a>
+          <Link legacyBehavior href="/contact">
+            <a className="btn">Contact me</a>
+          </Link>
         </div>
       </div>
       <Link href="/">Home</Link>

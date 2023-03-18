@@ -5,7 +5,7 @@ import Layout from "../comps/Layout";
 export default function Home() {
   return (
     <Layout>
-      <div>
+      <div className="navFontColor">
         {/* check how these two classes are working correctly */}
         <h1 className="font-bold text-9xl">Homepage</h1>
         <p>

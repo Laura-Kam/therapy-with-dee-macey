@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <Layout>
       <div>
-        <h1>Testimonials</h1>
+        <h1>FAQs</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro
           reiciendis ea quibusdam nemo nobis hic iure quos odio corporis,
