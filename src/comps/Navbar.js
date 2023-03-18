@@ -31,20 +31,12 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <Link legacyBehavior href="/contact">
-            <a className="btn">Contact me</a>
+            <a className="btn btnContact hover:bg-gray-custom shadow-gray-custom">
+              Contact me
+            </a>
           </Link>
         </div>
       </div>
-      <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
-
-      <Link href="/whatisrtt">What is RTT?</Link>
-
-      <Link href="/treatment">Treatment</Link>
-
-      <Link href="/faq">FAQs</Link>
-
-      <Link href="/contact">Contact</Link>
     </nav>
   );
 };
