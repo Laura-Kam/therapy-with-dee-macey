@@ -1,31 +1,48 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav>
-      <div>
-        <div className='navbar1'>
-          <div className='flex-1'>
-            <a className='btn btn-ghost normal-case text-xl'>daisyUI</a>
-          </div>
-          <div className='flex-none'>
-            <ul className='menu menu-horizontal px-1'>
-              <li>
+    <nav style={{ backgroundColor: "#95b8d1" }}>
+      <div className="navbar bg-base-100 {styles.navbar}">
+        <div className="navbar-start">
+          <div className="dropdown">
+            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </label>
+            <ul
+              tabIndex={0}
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li className="item1">
                 <a>Item 1</a>
               </li>
               <li tabIndex={0}>
-                <a>
+                <a className="justify-between">
                   Parent
                   <svg
-                    className='fill-current'
-                    xmlns='http://www.w3.org/2000/svg'
-                    width='20'
-                    height='20'
-                    viewBox='0 0 24 24'>
-                    <path d='M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z' />
+                    className="fill-current"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                   </svg>
                 </a>
-                <ul className='p-2 bg-base-100'>
+                <ul className="p-2">
                   <li>
                     <a>Submenu 1</a>
                   </li>
@@ -39,22 +56,43 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          <a className="btn btn-ghost normal-case text-xl">
+            Dee Macey Therapist
+          </a>
+        </div>
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal px-1">
+            <li>
+              <a>Home</a>
+            </li>
+            <li>
+              <a>What is RTT?</a>
+            </li>
+            <li>
+              <a>Treatment</a>
+            </li>
+            <li>
+              <a>FAQs</a>
+            </li>
+            <li>
+              <a>About Me</a>
+            </li>
+          </ul>
+        </div>
+        <div className="navbar-end">
+          <a className="btn">Contact me</a>
         </div>
       </div>
-      <div className='logo'>
-        <h1>MY NAV BAR Rapid Transformational Therapy with Dee</h1>
-      </div>
-      <Link href='/'>Home</Link>
-      <Link href='/about'> About</Link>
+      <Link href="/">Home</Link>
+      <Link href="/about">About</Link>
 
-      <Link href='/howitworks'>HowItWorks</Link>
+      <Link href="/whatisrtt">What is RTT?</Link>
 
-      <Link href='/rttsessions'>RTTSessions</Link>
+      <Link href="/treatment">Treatment</Link>
 
-      <Link href='/testimonials'>Testimonials</Link>
+      <Link href="/faq">FAQs</Link>
 
-      <Link href='/mybackground'>MyBackground</Link>
-      <Link href='/contact'>Contact</Link>
+      <Link href="/contact">Contact</Link>
     </nav>
   );
 };

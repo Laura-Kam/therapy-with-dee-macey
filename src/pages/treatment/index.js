@@ -1,7 +1,7 @@
-const Testimonials = () => {
+const Treatment = () => {
   return (
     <div>
-      <h1>Testimonials</h1>
+      <h1>Rapid Transformational Therapy Sessions</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro
         reiciendis ea quibusdam nemo nobis hic iure quos odio corporis,
@@ -24,4 +24,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Treatment;
