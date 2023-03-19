@@ -24,14 +24,31 @@ export default function Home() {
               Hello there, my name is Dee.<br></br> Working together, we can use
               Rapid Transformational Therapy (RTT) to quickly identify and
               address the root cause of your psychological trauma and set your
-              mind to rest.
+              mind to rest. <br></br> Email me at: Dee@gmail.com. <br></br> I'm
+              looking forward to working together.
             </p>
             <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>
       <div style={{ textAlign: "center", margin: "70px", padding: "40px" }}>
-        <h2>Dee Macey - How I can help</h2>
+        <h1 style={{ fontWeight: "bold", fontSize: "20px" }}>
+          How can I help?
+        </h1>
+        <div className="stack">
+          <img
+            src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="Image 1"
+            className="rounded profile-image"
+            style={{
+              height: "170px",
+              width: "200px",
+              borderRadius: "50%",
+              margin: "30px",
+            }}
+          />
+        </div>
+
         <p style={{ textAlign: "center", margin: "25px", padding: "20px" }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -52,11 +69,14 @@ export default function Home() {
             }}
           >
             <div className="card-body">
-              <h2 className="card-title">Card 1</h2>
-              <p>Some text here.</p>
-              <div className="card-actions">
-                <button className="btn btn-primary">Action 1</button>
-                <button className="btn btn-secondary">Action 2</button>
+              <h2 className="card-title">What is RTT?</h2>
+              <p>
+                RTT stands for Rapid Transformational Therapy. It was developed
+                by the British therapist Marisa Peer, which combines NLP,
+                hypnotherapy, psychotherapy, and CBT.
+              </p>
+              <div className="card-actions button-style">
+                <button className="btn btn-primary">Find Out More</button>
               </div>
             </div>
           </div>
@@ -70,11 +90,14 @@ export default function Home() {
             }}
           >
             <div className="card-body">
-              <h2 className="card-title">Card 2</h2>
-              <p>Some text here.</p>
-              <div className="card-actions">
-                <button className="btn btn-primary">Action 1</button>
-                <button className="btn btn-secondary">Action 2</button>
+              <h2 className="card-title">Who is it for?</h2>
+              <p>
+                RTT is targetting towards overcoming anxiety disorder,low
+                self-esteem, stress, depression, low self-esteem and panic
+                attacks{" "}
+              </p>
+              <div className="card-actions button-style">
+                <button className="btn btn-primary">Find Out More</button>
               </div>
             </div>
           </div>
@@ -87,11 +110,17 @@ export default function Home() {
             }}
           >
             <div className="card-body">
-              <h2 className="card-title">Card 3</h2>
-              <p>Some text here.</p>
+              <h2 className="card-title">How does the treatment work?</h2>
+              <p>
+                The therapy generally involves a one-on-one session with a
+                qualified RTT therapist.They lead client into a hypnotic state
+                to access their subconscious mind and help them understand and
+                alter their damaging beliefs and resulting behaviors.
+              </p>
               <div className="card-actions">
-                <button className="btn btn-primary">Action 1</button>
-                <button className="btn btn-secondary">Action 2</button>
+                <button className="btn btn-primary button-style">
+                  Find Out More
+                </button>
               </div>
             </div>
           </div>
