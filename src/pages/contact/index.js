@@ -3,7 +3,14 @@ import Layout from "../../comps/Layout";
 const Contact = () => {
   return (
     <Layout>
-      <div style={{ textAlign: "center", margin: "70px", padding: "40px" }}>
+      <div
+        style={{
+          textAlign: "center",
+          margin: "0px",
+          padding: "40px",
+          backgroundColor: "#D6eadf",
+        }}
+      >
         <h1 style={{ fontWeight: "bold", fontSize: "20px" }}>
           Contact Me
           <br></br>
@@ -11,8 +18,8 @@ const Contact = () => {
             Our first consultation is free
           </span>
           <br></br>
-          <span style={{ fontSize: "18px", fontWeight: "normal" }}>
-            I look forward to meeting you.
+          <span style={{ fontSize: "17px", fontWeight: "normal" }}>
+            Let's start your journey
           </span>
         </h1>
         <div className="stack">
@@ -48,7 +55,13 @@ const Contact = () => {
           }}
         >
           <label className="input-group input-group-vertical">
-            <span style={{ width: "500px", margin: "11px" }}>
+            <span
+              style={{
+                width: "500px",
+                margin: "11px",
+                backgroundColor: "#FOFOFO",
+              }}
+            >
               Enter your First Name and Surname
             </span>
             <input type="text" className="input input-bordered" />
@@ -72,7 +85,7 @@ const Contact = () => {
             <input
               type="text"
               className="input input-bordered"
-              style={{ height: "250px" }}
+              style={{ height: "250px", verticalAlign: "top" }}
             />
           </label>
         </div>

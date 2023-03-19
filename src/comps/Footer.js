@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer
@@ -10,11 +12,21 @@ const Footer = () => {
       }}
     >
       <div className="footerDiv grid grid-flow-col gap-4">
-        <a className="link link-hover">Home</a>
-        <a className="link link-hover">Treatment</a>
-        <a className="link link-hover">FAQs</a>
-        <a className="link link-hover">About Me</a>
-        <a className="link link-hover">Contact</a>
+        <Link href="/" className="link link-hover">
+          Home
+        </Link>
+        <Link href="/treatment" className="link link-hover">
+          Treatment
+        </Link>
+        <Link href="/faq" className="link link-hover">
+          FAQs
+        </Link>
+        <Link href="/about" className="link link-hover">
+          About Me
+        </Link>
+        <Link href="/contact" className="link link-hover">
+          Contact
+        </Link>
       </div>
       <div>
         <div className="grid grid-flow-col gap-4">

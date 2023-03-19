@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Layout>
       <div
-        className="hero h-[70vh]"
+        className="hero h-[74vh]"
         style={{
           backgroundImage: `url(https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80)`,
           backgroundPosition: "top 150%",
@@ -19,7 +19,7 @@ export default function Home() {
         <div className="hero-overlay hero-overlay-sm bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h2 className="mb-5 text-5xl font-bold">Welcome</h2>
+            <h4 className="mb-5 text-5xl font-bold">Welcome</h4>
             <p className="mb-5">
               Hello there, my name is Dee.<br></br> Working together, we can use
               Rapid Transformational Therapy (RTT) to quickly identify and
@@ -94,7 +94,7 @@ export default function Home() {
               <p>
                 RTT is targetting towards overcoming anxiety disorder,low
                 self-esteem, stress, depression, low self-esteem and panic
-                attacks{" "}
+                attacks.
               </p>
               <div className="card-actions button-style">
                 <button className="btn btn-primary">Find Out More</button>
