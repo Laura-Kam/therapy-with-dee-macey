@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Layout>
       <div
-        className="hero h-[65vh]"
+        className="hero h-[70vh]"
         style={{
           backgroundImage: `url(https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80)`,
           backgroundPosition: "top 150%",
@@ -23,9 +23,9 @@ export default function Home() {
             <p className="mb-5">
               Hello there, my name is Dee.<br></br> Working together, we can use
               Rapid Transformational Therapy (RTT) to quickly identify and
-              address the root cause of your psychological trauma and set your
-              mind to rest. <br></br> Email me at: Dee@gmail.com. <br></br> I'm
-              looking forward to working together.
+              address the root cause of your psychological trauma. <br></br>{" "}
+              Email me at: Dee@gmail.com. <br></br> I'm looking forward to
+              working together.
             </p>
             <button className="btn btn-primary">Get Started</button>
           </div>
