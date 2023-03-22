@@ -1,60 +1,42 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const Navbar = () => {
   return (
     <nav>
-      <div>
-        <div className='navbar1'>
-          <div className='flex-1'>
-            <a className='btn btn-ghost normal-case text-xl'>daisyUI</a>
-          </div>
-          <div className='flex-none'>
-            <ul className='menu menu-horizontal px-1'>
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li tabIndex={0}>
-                <a>
-                  Parent
-                  <svg
-                    className='fill-current'
-                    xmlns='http://www.w3.org/2000/svg'
-                    width='20'
-                    height='20'
-                    viewBox='0 0 24 24'>
-                    <path d='M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z' />
-                  </svg>
-                </a>
-                <ul className='p-2 bg-base-100'>
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
-            </ul>
-          </div>
+      <div className="navbar bg-base-100 {styles.navbar}">
+        <div className="navbar-start">
+          <div></div>
+          <a className="btn btn-ghost normal-case text-xl">
+            Dee Macey Therapist
+          </a>
+        </div>
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal px-1">
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="/whatisrtt">What is RTT?</Link>
+            </li>
+            <li>
+              <Link href="/treatment">Treatment</Link>
+            </li>
+            <li>
+              <Link href="/faq">FAQs</Link>
+            </li>
+            <li>
+              <Link href="/about">About Me</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="navbar-end">
+          <Link legacyBehavior href="/contact">
+            <a className="btn btnContact hover:bg-gray-custom shadow-gray-custom">
+              Contact me
+            </a>
+          </Link>
         </div>
       </div>
-      <div className='logo'>
-        <h1>MY NAV BAR Rapid Transformational Therapy with Dee</h1>
-      </div>
-      <Link href='/'>Home</Link>
-      <Link href='/about'> About</Link>
-
-      <Link href='/howitworks'>HowItWorks</Link>
-
-      <Link href='/rttsessions'>RTTSessions</Link>
-
-      <Link href='/testimonials'>Testimonials</Link>
-
-      <Link href='/mybackground'>MyBackground</Link>
-      <Link href='/contact'>Contact</Link>
     </nav>
   );
 };
