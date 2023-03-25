@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p>Copyright © 2023 Laura Kam Web Development</p>
+        <p>Copyright © 2023 Laura Kam WebDEV Development</p>
       </div>
     </footer>
   );

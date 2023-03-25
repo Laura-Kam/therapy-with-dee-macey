@@ -1,4 +1,5 @@
 import Layout from "../../comps/Layout";
+import Image from "next/image";
 
 const Testimonials = () => {
   return (
@@ -85,7 +86,7 @@ const Testimonials = () => {
           </span>
         </h1>
         <div className="stack">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             alt="Image 1"
             className="rounded profile-image"
