@@ -77,7 +77,7 @@ const Contact = () => {
           <br></br>
           <span style={{ fontWeight: 'normal', fontSize: '20px' }}>Our first consultation is free</span>
           <br></br>
-          <span style={{ fontSize: '17px', fontWeight: 'normal' }}>Let's start your journey</span>
+          <span style={{ fontSize: '17px', fontWeight: 'normal' }}>Let&apos;s start your journey</span>
         </h1>
         <div className='stack'>
           <img
