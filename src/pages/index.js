@@ -1,5 +1,6 @@
 import ReactPlayer from "react-player/vimeo";
 import Layout from "../comps/Layout";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -32,19 +33,20 @@ export default function Home() {
           How can I help?
         </h1>
         <div className="stack">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             alt="Image 1"
             className="rounded profile-image"
+            height={170}
+            width={200}
+            layout="fixed"
+            objectFit="cover"
             style={{
-              height: "170px",
-              width: "200px",
               borderRadius: "50%",
               margin: "30px",
             }}
           />
         </div>
-
         <p style={{ textAlign: "center", margin: "25px", padding: "20px" }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
