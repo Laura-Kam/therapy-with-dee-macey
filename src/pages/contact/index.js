@@ -20,7 +20,7 @@ const Contact = () => {
           </span>
           <br></br>
           <span style={{ fontSize: "17px", fontWeight: "normal" }}>
-            Let&apos;s start your journey
+            Let us start your journey
           </span>
         </h1>
         <div className="stack">

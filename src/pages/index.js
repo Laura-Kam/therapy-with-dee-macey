@@ -20,7 +20,7 @@ export default function Home() {
               Hello there, my name is Dee.<br></br> Working together, we can use
               Rapid Transformational Therapy (RTT) to quickly identify and
               address the root cause of your psychological trauma. <br></br>{" "}
-              Email me at: Dee@gmail.com. <br></br> I&apos;m looking forward to
+              Email me at: Dee@gmail.com. <br></br> I am looking forward to
               working together.
             </p>
             <button className="btn btn-primary">Get Started</button>
