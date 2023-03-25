@@ -1,5 +1,5 @@
 import Layout from "../../comps/Layout";
-import styles from "../../styles/about.module.css";
+import styles from "../../styles/About.module.css";
 
 const About = () => {
   return (

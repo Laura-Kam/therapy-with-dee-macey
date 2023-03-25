@@ -1,6 +1,6 @@
-import ReactPlayer from "react-player/vimeo";
 import Layout from "../comps/Layout";
 import Image from "next/image";
+import VimeoPlayer from "../comps/VimeoPlayer";
 
 export default function Home() {
   return (
@@ -127,13 +127,8 @@ export default function Home() {
         {/* video added, you need to style it */}
         <div>
           <p>Video</p>
-          <ReactPlayer
-            url="https://vimeo.com/670217387"
-            width="100%"
-            height="100%"
-            controls={true}
-            playing={true}
-          />
+          {/* "https://vimeo.com/670217387" */}
+          <VimeoPlayer videoId={"670217387"} />
         </div>
       </div>
     </Layout>
