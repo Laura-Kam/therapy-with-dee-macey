@@ -1,5 +1,5 @@
 import Layout from "../../comps/Layout";
-import Form from "Form/next";git a
+import Form from "Form/next";
 
 const Contact = () => {
   return (
