@@ -5,11 +5,11 @@ const Testimonials = () => {
   return (
     <Layout>
       <div
-        className="hero h-[60vh] bg-cover"
+        className="hero h-[70vh] bg-cover"
         style={{
-          backgroundImage: `url(https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80)`,
-          // backgroundPosition: "top 100%",
-          // backgroundSize: "cover",
+          backgroundImage: `url(https://images.unsplash.com/photo-1546387903-6d82d96ccca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80)`,
+          backgroundPosition: "top 100%",
+          backgroundSize: "cover",
         }}
       >
         <div className="hero-overlay hero-overlay-sm bg-opacity-60"></div>
@@ -75,48 +75,211 @@ const Testimonials = () => {
       >
         <div></div>
         <h1 style={{ fontWeight: "bold", fontSize: "20px" }}>
-          Frequently Asked Questions
-          <br></br>
-          <span style={{ fontWeight: "normal", fontSize: "20px" }}>
-            Our first consultation is free
-          </span>
-          <br></br>
-          <span style={{ fontSize: "17px", fontWeight: "normal" }}>
-            Let us start your journey
-          </span>
+          Click on the options below
         </h1>
         <div className="stack">
           <Image
             src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             alt="Image 1"
             className="rounded profile-image"
+            height={170}
+            width={200}
             style={{
-              height: "170px",
-              width: "200px",
               borderRadius: "50%",
               margin: "30px",
             }}
           />
         </div>
-        <h1>FAQs</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro
-          reiciendis ea quibusdam nemo nobis hic iure quos odio corporis,
-          laudantium animi laborum voluptatem quia, veniam fuga aperiam officia
-          sequi!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro
-          reiciendis ea quibusdam nemo nobis hic iure quos odio corporis,
-          laudantium animi laborum voluptatem quia, veniam fuga aperiam officia
-          sequi!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro
-          reiciendis ea quibusdam nemo nobis hic iure quos odio corporis,
-          laudantium animi laborum voluptatem quia, veniam fuga aperiam officia
-          sequi!
-        </p>
+      </div>
+      <div style={{ padding: "0 10px", fontSize: "20px" }}>
+        <div
+          className="collapse"
+          style={{
+            marginLeft: "auto",
+            marginRight: "auto",
+            maxWidth: "950px",
+            Height: "30px",
+
+            lineHeight: "30px",
+          }}
+        >
+          <input type="checkbox" className="peer" />
+          <div
+            className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
+            style={{
+              border: "solid 2px #dde8d8",
+              // borderColor: "black",
+              borderRadius: "50px",
+              backgroundColor: "#dde8d8",
+              textAlign: "center",
+              display: "flex",
+              justifyContent: "center",
+              height: "30px",
+              marginBottom: "12px",
+              lineHeight: "30px",
+            }}
+          >
+            Click me to show/hide content
+          </div>
+          <div
+            className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
+            style={{ textAlign: "center" }}
+          >
+            <p>hello</p>
+          </div>
+        </div>
+      </div>
+      <div style={{ padding: "0 10px", fontSize: "20px" }}>
+        <div
+          className="collapse"
+          style={{
+            marginLeft: "auto",
+            marginRight: "auto",
+            maxWidth: "950px",
+            Height: "30px",
+
+            lineHeight: "30px",
+          }}
+        >
+          <input type="checkbox" className="peer" />
+          <div
+            className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
+            style={{
+              border: "solid 2px #dde8d8",
+              // borderColor: "black",
+              borderRadius: "50px",
+              backgroundColor: "#dde8d8",
+              textAlign: "center",
+              display: "flex",
+              justifyContent: "center",
+              height: "30px",
+              marginBottom: "12px",
+              lineHeight: "30px",
+            }}
+          >
+            Click me to show/hide content
+          </div>
+          <div
+            className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
+            style={{ textAlign: "center" }}
+          >
+            <p>hello</p>
+          </div>
+        </div>
+      </div>
+      <div style={{ padding: "0 10px", fontSize: "20px" }}>
+        <div
+          className="collapse"
+          style={{
+            marginLeft: "auto",
+            marginRight: "auto",
+            maxWidth: "950px",
+            Height: "30px",
+
+            lineHeight: "30px",
+          }}
+        >
+          <input type="checkbox" className="peer" />
+          <div
+            className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
+            style={{
+              border: "solid 2px #dde8d8",
+              // borderColor: "black",
+              borderRadius: "50px",
+              backgroundColor: "#dde8d8",
+              textAlign: "center",
+              display: "flex",
+              justifyContent: "center",
+              height: "30px",
+              marginBottom: "12px",
+              lineHeight: "30px",
+            }}
+          >
+            Click me to show/hide content
+          </div>
+          <div
+            className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
+            style={{ textAlign: "center" }}
+          >
+            <p>hello</p>
+          </div>
+        </div>
+      </div>
+      <div style={{ padding: "0 10px", fontSize: "20px" }}>
+        <div
+          className="collapse"
+          style={{
+            marginLeft: "auto",
+            marginRight: "auto",
+            maxWidth: "950px",
+            Height: "30px",
+
+            lineHeight: "30px",
+          }}
+        >
+          <input type="checkbox" className="peer" />
+          <div
+            className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
+            style={{
+              border: "solid 2px #dde8d8",
+              // borderColor: "black",
+              borderRadius: "50px",
+              backgroundColor: "#dde8d8",
+              textAlign: "center",
+              display: "flex",
+              justifyContent: "center",
+              height: "30px",
+              marginBottom: "12px",
+              lineHeight: "30px",
+            }}
+          >
+            Click me to show/hide content
+          </div>
+          <div
+            className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
+            style={{ textAlign: "center" }}
+          >
+            <p>hello</p>
+          </div>
+        </div>
+      </div>
+      <div style={{ padding: "0 10px", fontSize: "20px" }}>
+        <div
+          className="collapse"
+          style={{
+            marginLeft: "auto",
+            marginRight: "auto",
+            maxWidth: "950px",
+            Height: "30px",
+
+            lineHeight: "30px",
+          }}
+        >
+          <input type="checkbox" className="peer" />
+          <div
+            className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
+            style={{
+              border: "solid 2px #dde8d8",
+              // borderColor: "black",
+              borderRadius: "50px",
+              backgroundColor: "#dde8d8",
+              textAlign: "center",
+              display: "flex",
+              justifyContent: "center",
+              height: "30px",
+              marginBottom: "12px",
+              lineHeight: "30px",
+            }}
+          >
+            Click me to show/hide content
+          </div>
+          <div
+            className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
+            style={{ textAlign: "center" }}
+          >
+            <p>hello</p>
+          </div>
+        </div>
       </div>
     </Layout>
   );
