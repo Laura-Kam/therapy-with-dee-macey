@@ -1,13 +1,20 @@
 import Link from "next/link";
+import Image from "next/image";
+import rttlogo from "../../public/rttfulllogo.png";
 
 const Navbar = () => {
   return (
     <nav>
       <div className="navbar bg-base-100 {styles.navbar}">
         <div className="navbar-start">
-          <div></div>
           <a className="btn btn-ghost normal-case text-xl">
-            Dee Macey Therapist
+            <Image
+              src="/rttfulllogo.png"
+              alt="My Image"
+              width={210}
+              height={210}
+            />
+            Dee Macey Therapy
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

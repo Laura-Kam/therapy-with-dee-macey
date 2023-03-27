@@ -28,8 +28,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div style={{ textAlign: "center", margin: "70px", padding: "40px" }}>
-        <h1 style={{ fontWeight: "bold", fontSize: "20px" }}>
+      <div style={{ textAlign: "center", margin: "10px", padding: "40px" }}>
+        <h1 style={{ fontWeight: "bold", fontSize: "22px", margin: "30px" }}>
           How can I help?
         </h1>
         <div className="stack">
@@ -43,18 +43,70 @@ export default function Home() {
             objectFit="cover"
             style={{
               borderRadius: "50%",
-              margin: "30px",
+              margin: "20px",
             }}
           />
         </div>
-        <p style={{ textAlign: "center", margin: "25px", padding: "20px" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.{" "}
+      </div>
+      <div
+        style={{ marginLeft: "230px", marginRight: "230px", fontSize: "21px" }}
+      >
+        <p
+          style={{
+            textAlign: "center",
+            margin: "14px",
+            marginTop: "0px",
+            marginTop: "10px",
+            padding: "10px",
+          }}
+        >
+          <span style={{ fontStyle: "italic" }}>
+            ‘We want to know what is going on inside us, so we can know what to
+            let go.<br></br> Instead of hiding our pain, we can release it
+            totally.’
+          </span>{" "}
+          Louise Hay.<br></br>
         </p>
+        <p
+          style={{
+            fontSize: "20px",
+            display: "flex",
+            marginTop: "40px",
+          }}
+        >
+          It is accepted that many people worldwide have utilized and realized
+          the benefits of accessing therapy with the aim of changing what
+          currently is. <br></br>
+          <br></br>However which therapy and which therapist is right for you?
+          Sometimes it as simple as what ‘feels right’, but perhaps it might be
+          easier to consider what is it you want? What would you like to change?
+          What would your better tomorrow look like? Have you ever considered
+          something different?. . . Rapid Transformational Therapy&copy;.{" "}
+        </p>
+      </div>
+      <div>
+        <h2
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            margin: "30px",
+            fontWeight: "bold",
+            fontSize: "21px",
+          }}
+        >
+          Watch the video to find out more
+        </h2>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        {/* "https://vimeo.com/670217387" */}
+        <VimeoPlayer videoId={"670217387"} />
       </div>
       <div>
         <div className="cardGridMargin grid grid-cols-3 gap-4 space-x-2.5 m-10">
@@ -125,11 +177,6 @@ export default function Home() {
         </div>
 
         {/* video added, you need to style it */}
-        <div>
-          <p>Video</p>
-          {/* "https://vimeo.com/670217387" */}
-          <VimeoPlayer videoId={"670217387"} />
-        </div>
       </div>
     </Layout>
   );
