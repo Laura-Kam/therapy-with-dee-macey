@@ -5,45 +5,6 @@ import rttlogo from "../../public/rttroundedlogo.png";
 const Navbar = () => {
   return (
     <nav>
-      {/* <div className="navbar bg-base-100">
-        <div className="navbar-start">
-          <a className="btn btn-ghost normal-case text-xl">
-            <Image
-              src="/rttroundedlogo.png"
-              alt="My Image"
-              width={210}
-              height={210}
-            />
-            Dee Macey Therapy
-          </a>
-        </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/whatisrtt">What is RTT?</Link>
-            </li>
-            <li>
-              <Link href="/treatment">Treatment</Link>
-            </li>
-            <li>
-              <Link href="/faq">FAQs</Link>
-            </li>
-            <li>
-              <Link href="/about">About Me</Link>
-            </li>
-          </ul>
-        </div>
-        <div className="navbar-end">
-          <Link legacyBehavior href="/contact">
-            <a className="btn btnContact hover:bg-gray-custom shadow-gray-custom">
-              Contact me
-            </a>
-          </Link>
-        </div>
-      </div> */}
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -65,7 +26,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box"
             >
               <li>
                 <Link href="/">Home</Link>
