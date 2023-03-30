@@ -7,7 +7,7 @@ const Footer = () => {
       style={{
         backgroundColor: "#F5F5F5",
         color: "black",
-        fontFamily: "Old Standard TT",
+        fontFamily: "Open Sans",
         fontSize: "16px",
       }}
     >
