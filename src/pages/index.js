@@ -110,7 +110,7 @@ export default function Home() {
         <VimeoPlayer videoId={"670217387"} />
       </div>
       <div>
-        <div className="cardGridMargin grid grid-cols-3 gap-4 space-x-2.5 m-10">
+        <div className="cardGridMargin grid md:grid-cols-3 gap-4 space-x-2.5 m-10">
           <div
             className="card border-4"
             style={{
