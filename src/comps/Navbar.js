@@ -5,7 +5,9 @@ import rttlogo from "../../public/rttroundedlogo.png";
 const Navbar = () => {
   return (
     <nav>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 navbar-expand-lg">
+        {" "}
+        // add the class "navbar-expand-lg"
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
