@@ -77,12 +77,31 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end hidden lg:block">
           <a className="btn">CONTACT ME</a>
         </div>
+      </div>
+
+      {/* Mobile Responsive Navbar */}
+      <div className="lg:hidden">
+        <ul className="menu menu-compact mt-3 p-2 shadow bg-base-100 rounded-box">
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/whatisrtt">What is RTT?</Link>
+          </li>
+          <li>
+            <Link href="/treatment">Treatment</Link>
+          </li>
+          <li>
+            <Link href="/faq">FAQs</Link>
+          </li>
+          <li>
+            <Link href="/about">About Me</Link>
+          </li>
+        </ul>
       </div>
     </nav>
   );
 };
-
-export default Navbar;
