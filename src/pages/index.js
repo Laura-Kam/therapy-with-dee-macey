@@ -73,7 +73,7 @@ export default function Home() {
           </Link>
           , for{" "}
           <Link href="/whatisrtt" className="link text-bold text-blue-500">
-            What is RTT&#174;?{" "}
+            What is RTT&#174;?,{" "}
           </Link>
           <Link href="/whatisrtt" className="link text-bold text-blue-500">
             Who is it for?{" "}
@@ -87,7 +87,7 @@ export default function Home() {
             Frequently Asked Questions{" "}
           </Link>
           - especially useful when considering using hypnosis for the first
-          time. Please click Here to schedule a free Discovery call.
+          time.
         </p>
         <p className="text-xl mt-16 font-bold text-center">
           Please click{" "}
