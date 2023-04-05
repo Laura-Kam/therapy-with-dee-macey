@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="text-center my-10 px-10 py-20">
+      <div class="text-center my-10 px-5 py-10 sm:py-20 mt-20">
         <h1 className="font-bold text-0.5xl sm:text-1xl md:text-2xl lg:text-3xl mb-10">
           How can I help?
         </h1>
