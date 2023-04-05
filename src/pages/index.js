@@ -1,6 +1,7 @@
 import Layout from "../comps/Layout";
 import Image from "next/image";
 import VimeoPlayer from "../comps/VimeoPlayer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,28 +9,30 @@ export default function Home() {
       <div
         className="hero h-[74vh] sm:h-[50vh] md:h-[65vh] lg:h-[70vh]"
         style={{
-          backgroundImage: `url(https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80)`,
-          backgroundPosition: "top 150%",
+          backgroundImage: `url(https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=806&q=80)`,
+          backgroundPosition: "center",
           backgroundSize: "cover",
+          filter: "brightness(110%)",
         }}
       >
-        <div className="hero-overlay hero-overlay-sm bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
-            <h4 className="mb-5 text-5.5vw sm:text-8vw lg:text-9.5vw xl:text-11vw font-bold">
-              Welcome
-            </h4>
+        <div className="hero-overlay hero-overlay-sm bg-opacity-30"></div>
+        <div className="hero-content text-center text-neutral-content p-0">
+          <div className="max-w-sm">
+            <h1 className="mb-5 font-bold text-3xl">Welcome</h1>
             <p className="mb-5 text-2.5vw sm:text-4vw">
-              Hello there, my name is Dee.
-              <br /> Working together, we can use Rapid Transformational Therapy
-              (RTT) to quickly identify and address the root cause of your
-              psychological trauma. <br /> Email me at: Dee@gmail.com. <br /> I
-              am looking forward to working together.
+              <span className="text-lg"> How can I help? My name is Dee.</span>
+              <br />
+              <br /> I am a Certified Hypnotherapist, <br />
+              Rapid Transformational Therapy Therapist <br></br>and a Registered
+              Midwife. <br />
+              <br></br> Email me at: DeeMaceyTherapy@gmail.com. <br /> I am
+              looking forward to working together.
             </p>
             <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>
+
       <div className="text-center my-10 px-10 py-20">
         <h1 className="font-bold text-0.5xl sm:text-1xl md:text-2xl lg:text-3xl mb-10">
           How can I help?
@@ -56,6 +59,42 @@ export default function Home() {
           let go. Instead of hiding our pain, we can release it totally.’
           <br />
           <span className="font-bold">Louise Hay.</span>
+        </p>
+        <p className="text-xl mt-16">
+          I am a Certified Hypnotherapist, Rapid Transformational Therapy
+          Therapist&#174; and a Registered Midwife. My specialist area is
+          helping individuals through fears which may exist surrounding birth
+          and assisting those who are experiencing birth trauma - when events
+          haven’t gone quite as was anticipated. This support is extended to
+          include all those affected by adverse experiences concerning birth.
+          Please click here for more information{" "}
+          <Link href="/about" className="link text-bold text-blue-500">
+            About Me
+          </Link>
+          , for{" "}
+          <Link href="/whatisrtt" className="link text-bold text-blue-500">
+            What is RTT&#174;?{" "}
+          </Link>
+          <Link href="/whatisrtt" className="link text-bold text-blue-500">
+            Who is it for?{" "}
+          </Link>{" "}
+          and{" "}
+          <Link href="/whatisrtt" className="link text-bold text-blue-500">
+            What can RTT&#174; be used for?{" "}
+          </Link>
+          as well as{" "}
+          <Link href="/faq" className="link text-bold text-blue-500">
+            Frequently Asked Questions{" "}
+          </Link>
+          - especially useful when considering using hypnosis for the first
+          time. Please click Here to schedule a free Discovery call.
+        </p>
+        <p className="text-xl mt-16 font-bold text-center">
+          Please click{" "}
+          <Link href="/contact" className="link text-bold text-blue-500">
+            here{" "}
+          </Link>
+          to schedule a free Discovery call.
         </p>
         <p className="text-xl mt-16">
           It is accepted that many people worldwide have utilized and realized
@@ -90,15 +129,15 @@ export default function Home() {
             style={{
               borderColor: "#FAFAFA",
               borderWidth: "6px",
-              backgroundColor: "#d6eadf",
+              backgroundColor: "#dbe8d7",
             }}
           >
             <div className="card-body">
               <h2 className="card-title">What is RTT?</h2>
               <p>
-                RTT stands for Rapid Transformational Therapy. It was developed
-                by the British therapist Marisa Peer, which combines NLP,
-                hypnotherapy, psychotherapy, and CBT.
+                RTT stands for Rapid Transformational Therapy&#174;. It was
+                developed by the British therapist Marisa Peer, which combines
+                NLP, hypnotherapy, psychotherapy, and CBT.
               </p>
               <div className="card-actions button-style">
                 <button className="btn btn-primary">Find Out More</button>
@@ -111,13 +150,13 @@ export default function Home() {
             style={{
               borderColor: "#FAFAFA",
               borderWidth: "6px",
-              backgroundColor: "#d6eadf",
+              backgroundColor: "#dbe8d7",
             }}
           >
             <div className="card-body">
               <h2 className="card-title">Who is it for?</h2>
               <p>
-                RTT is targetting towards overcoming anxiety disorder,low
+                RTT&#174; is targetting towards overcoming anxiety disorder,low
                 self-esteem, stress, depression, low self-esteem and panic
                 attacks.
               </p>
@@ -131,16 +170,16 @@ export default function Home() {
             style={{
               borderColor: "#FAFAFA",
               borderWidth: "6px",
-              backgroundColor: "#d6eadf",
+              backgroundColor: "#dbe8d7",
             }}
           >
             <div className="card-body">
               <h2 className="card-title">How does the treatment work?</h2>
               <p>
                 The therapy generally involves a one-on-one session with a
-                qualified RTT therapist.They lead client into a hypnotic state
-                to access their subconscious mind and help them understand and
-                alter their damaging beliefs and resulting behaviors.
+                qualified RTT&#174; therapist.They lead client into a hypnotic
+                state to access their subconscious mind and help them understand
+                and alter their damaging beliefs and resulting behaviors.
               </p>
               <div className="card-actions">
                 <button className="btn btn-primary button-style">

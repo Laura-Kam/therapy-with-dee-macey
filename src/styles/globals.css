@@ -7,12 +7,15 @@
 nav{ 
     background-color: white;
     color: black;
-    font-family: "Open Sans";
+    font-family: "Calibri-Light";
     font-size: 18px;
 }
 
+* {
+  font-family: "Calibri-Light";
+}
 body {
-    font-family: "Open Sans";
+    font-family: "Calibri-Light";
 }
  
 .footerDiv {
