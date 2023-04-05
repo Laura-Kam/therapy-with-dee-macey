@@ -9,7 +9,7 @@ export default function Home() {
       <div
         className="hero h-[74vh] sm:h-[50vh] md:h-[65vh] lg:h-[70vh]"
         style={{
-          backgroundImage: `url(https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=806&q=80)`,
+          backgroundImage: `url(https://images.unsplash.com/photo-1521208916306-71fce562015a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80)`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           filter: "brightness(110%)",
