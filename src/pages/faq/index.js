@@ -157,13 +157,27 @@ const Testimonials = () => {
               lineHeight: "30px",
             }}
           >
-            Click me to show/hide content
+            Can hypnotherapy work for everyone?
           </div>
-          <div
-            className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
-            style={{ textAlign: "center" }}
-          >
-            <p>hello</p>
+          <div class="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content text-left">
+            <p>
+              If you are able to relax, and agree to be hypnotised then yes.
+              However, there are certain medical/mental health conditions which
+              would prohibit accessing this therapy i.e. schizophrenia. If you
+              currently find yourself in a state of hyper-vigilance, then it may
+              be that getting you to relax will be the first stage of your
+              journey. Hypnosis is actually a part of everyday life – when we
+              day dream, get lost in a film or experience the sensation of
+              having driven somewhere but cannot remember the journey . . .
+              that’s hypnosis.
+              <br />
+              <br /> It’s the alteration in brain-wave ‘cycles’ from Beta (alert
+              and engaged) to the Alpha-Theta border, a slower cycle where you
+              are still conscious of your surroundings but your body is in deep
+              relaxation. Hypnosis feels like the point, just before sleep, when
+              you are completely aware of everything (so still in control) but
+              detached and deeply relaxed.
+            </p>
           </div>
         </div>
       </div>
