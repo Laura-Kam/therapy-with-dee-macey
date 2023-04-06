@@ -2,6 +2,7 @@ import Layout from "../comps/Layout";
 import Image from "next/image";
 import VimeoPlayer from "../comps/VimeoPlayer";
 import Link from "next/link";
+import MarissaPeerContentHomepage from "@/comps/HomepageComponents/MarissaPeerContentHomepage";
 
 export default function Home() {
   return (
@@ -9,14 +10,14 @@ export default function Home() {
       <div
         className="hero h-[74vh] sm:h-[50vh] md:h-[65vh] lg:h-[70vh]"
         style={{
-          backgroundImage: `url(https://images.unsplash.com/photo-1521208916306-71fce562015a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80)`,
+          backgroundImage: `url(https://images.unsplash.com/photo-1464288550599-43d5a73451b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=896&q=80)`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           filter: "brightness(110%)",
         }}
       >
         <div className="hero-overlay hero-overlay-sm bg-opacity-30"></div>
-        <div className="hero-content text-center text-neutral-content p-0">
+        <div className="hero-content text-center text-neutral-content p-0 bg-white rounded-lg m-3 p-3">
           <div className="max-w-sm">
             <h1 className="mb-5 font-bold text-3xl">Welcome</h1>
             <p className="mb-5 text-2.5vw sm:text-4vw">
@@ -33,7 +34,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="text-center my-10 px-5 py-10 sm:py-20 mt-20">
+      <div class="text-center my-2 px-2 py-2 sm:py-7 mt-9">
         <h1 className="font-bold text-0.5xl sm:text-1xl md:text-2xl lg:text-3xl mb-10">
           How can I help?
         </h1>
@@ -54,7 +55,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mx-8 sm:mx-32 text-lg">
-        <p className="text-center my-4 pt-10 italic">
+        <p className="text-center my-4 pt-4 italic">
           ‘We want to know what is going on inside us, so we can know what to
           let go. Instead of hiding our pain, we can release it totally.’
           <br />
@@ -122,6 +123,7 @@ export default function Home() {
         {/* "https://vimeo.com/670217387" */}
         <VimeoPlayer videoId={"670217387"} />
       </div>
+      <MarissaPeerContentHomepage />
       <div>
         <div className="cardGridMargin grid md:grid-cols-3 gap-4 space-x-2.5 m-10">
           <div
