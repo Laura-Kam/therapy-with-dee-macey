@@ -6,6 +6,7 @@ import WhatIsRTTContentHomepage from "@/comps/HomepageComponents/WhatIsRTTConten
 import WhoIsMarisaPeerHomepage from "@/comps/HomepageComponents/WhoIsMarisaPeerHomePage";
 import WhatMakesRTTDifferentHomepage from "@/comps/HomepageComponents/WhatMakesRTTDifferentHomepage";
 import InfoBoxesHomepage from "@/comps/HomepageComponents/InfoBoxesHomepage";
+import IssuesTreatedHomepage from "@/comps/HomepageComponents/IssuesTreatedHomepage";
 
 export default function Home() {
   return (
@@ -130,6 +131,7 @@ export default function Home() {
       <WhoIsMarisaPeerHomepage />
       <WhatMakesRTTDifferentHomepage />
       <InfoBoxesHomepage />
+      <IssuesTreatedHomepage />
     </Layout>
   );
 }
