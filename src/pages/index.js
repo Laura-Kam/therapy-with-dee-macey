@@ -2,7 +2,10 @@ import Layout from "../comps/Layout";
 import Image from "next/image";
 import VimeoPlayer from "../comps/VimeoPlayer";
 import Link from "next/link";
-import MarissaPeerContentHomepage from "@/comps/HomepageComponents/MarissaPeerContentHomepage";
+import WhatIsRTTContentHomepage from "@/comps/HomepageComponents/WhatIsRTTContentHomepage";
+import WhoIsMarisaPeerHomepage from "@/comps/HomepageComponents/WhoIsMarisaPeerHomePage";
+import WhatMakesRTTDifferentHomepage from "@/comps/HomepageComponents/WhatMakesRTTDifferentHomepage";
+import InfoBoxesHomepage from "@/comps/HomepageComponents/InfoBoxesHomepage";
 
 export default function Home() {
   return (
@@ -17,8 +20,8 @@ export default function Home() {
         }}
       >
         <div className="hero-overlay hero-overlay-sm bg-opacity-30"></div>
-        <div className="hero-content text-center text-neutral-content p-0 bg-white rounded-lg m-3 p-3">
-          <div className="max-w-sm">
+        <div className="hero-content text-center text-neutral-content bg-white rounded-lg m-3 p-3">
+          <div className="">
             <h1 className="mb-5 font-bold text-3xl">Welcome</h1>
             <p className="mb-5 text-2.5vw sm:text-4vw">
               <span className="text-lg"> How can I help? My name is Dee.</span>
@@ -123,77 +126,10 @@ export default function Home() {
         {/* "https://vimeo.com/670217387" */}
         <VimeoPlayer videoId={"670217387"} />
       </div>
-      <MarissaPeerContentHomepage />
-      <div>
-        <div className="cardGridMargin grid md:grid-cols-3 gap-4 space-x-2.5 m-10">
-          <div
-            className="card border-4"
-            style={{
-              borderColor: "#FAFAFA",
-              borderWidth: "6px",
-              backgroundColor: "#dbe8d7",
-            }}
-          >
-            <div className="card-body">
-              <h2 className="card-title">What is RTT?</h2>
-              <p>
-                RTT stands for Rapid Transformational Therapy&#174;. It was
-                developed by the British therapist Marisa Peer, which combines
-                NLP, hypnotherapy, psychotherapy, and CBT.
-              </p>
-              <div className="card-actions button-style">
-                <button className="btn btn-primary">Find Out More</button>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className="card"
-            style={{
-              borderColor: "#FAFAFA",
-              borderWidth: "6px",
-              backgroundColor: "#dbe8d7",
-            }}
-          >
-            <div className="card-body">
-              <h2 className="card-title">Who is it for?</h2>
-              <p>
-                RTT&#174; is targetting towards overcoming anxiety disorder,low
-                self-esteem, stress, depression, low self-esteem and panic
-                attacks.
-              </p>
-              <div className="card-actions button-style">
-                <button className="btn btn-primary">Find Out More</button>
-              </div>
-            </div>
-          </div>
-          <div
-            className="card"
-            style={{
-              borderColor: "#FAFAFA",
-              borderWidth: "6px",
-              backgroundColor: "#dbe8d7",
-            }}
-          >
-            <div className="card-body">
-              <h2 className="card-title">How does the treatment work?</h2>
-              <p>
-                The therapy generally involves a one-on-one session with a
-                qualified RTT&#174; therapist.They lead client into a hypnotic
-                state to access their subconscious mind and help them understand
-                and alter their damaging beliefs and resulting behaviors.
-              </p>
-              <div className="card-actions">
-                <button className="btn btn-primary button-style">
-                  Find Out More
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* video added, you need to style it */}
-      </div>
+      <WhatIsRTTContentHomepage />
+      <WhoIsMarisaPeerHomepage />
+      <WhatMakesRTTDifferentHomepage />
+      <InfoBoxesHomepage />
     </Layout>
   );
 }
