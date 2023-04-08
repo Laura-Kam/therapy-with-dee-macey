@@ -159,7 +159,7 @@ const Testimonials = () => {
           >
             Can hypnotherapy work for everyone?
           </div>
-          <div class="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content text-left">
+          <div className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content text-left">
             <p>
               If you are able to relax, and agree to be hypnotised then yes.
               However, there are certain medical/mental health conditions which

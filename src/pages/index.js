@@ -5,7 +5,9 @@ import Link from "next/link";
 import WhatIsRTTContentHomepage from "@/comps/HomepageComponents/WhatIsRTTContentHomepage";
 import WhoIsMarisaPeerHomepage from "@/comps/HomepageComponents/WhoIsMarisaPeerHomePage";
 import WhatMakesRTTDifferentHomepage from "@/comps/HomepageComponents/WhatMakesRTTDifferentHomepage";
+
 import InfoBoxesHomepage from "@/comps/HomepageComponents/InfoBoxesHomepage";
+
 import IssuesTreatedHomepage from "@/comps/HomepageComponents/IssuesTreatedHomepage";
 
 export default function Home() {
@@ -38,7 +40,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="text-center my-2 px-2 py-2 sm:py-7 mt-9">
+      <div className="text-center my-2 px-2 py-2 sm:py-7 mt-9">
         <h1 className="font-bold text-0.5xl sm:text-1xl md:text-2xl lg:text-3xl mb-10">
           How can I help?
         </h1>
