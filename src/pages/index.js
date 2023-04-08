@@ -5,7 +5,9 @@ import Link from "next/link";
 import WhatIsRTTContentHomepage from "@/comps/HomepageComponents/WhatIsRTTContentHomepage";
 import WhoIsMarisaPeerHomepage from "@/comps/HomepageComponents/WhoIsMarisaPeerHomePage";
 import WhatMakesRTTDifferentHomepage from "@/comps/HomepageComponents/WhatMakesRTTDifferentHomepage";
-import InfoBoxesHomepage from "@/comps/HomepageComponents/InfoBoxesHomePage";
+
+import InfoBoxesHomepage from "@/comps/HomepageComponents/InfoBoxesHomepage";
+
 import IssuesTreatedHomepage from "@/comps/HomepageComponents/IssuesTreatedHomepage";
 
 export default function Home() {
