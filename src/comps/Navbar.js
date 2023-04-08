@@ -9,6 +9,29 @@ const Navbar = () => {
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
+
+  const dropdownMenu = isOpen ? (
+    <div className="dropdown-menu mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+      <ul className="menu menu-compact">
+        <li>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="/whatisrtt">What is RTT?</Link>
+        </li>
+        <li>
+          <Link href="/treatment">Treatment</Link>
+        </li>
+        <li>
+          <Link href="/faq">FAQs</Link>
+        </li>
+        <li>
+          <Link href="/about">About Me</Link>
+        </li>
+      </ul>
+    </div>
+  ) : null;
+
   return (
     <nav>
       <div className="navbar bg-base-100">
@@ -34,26 +57,7 @@ const Navbar = () => {
                 />
               </svg>
             </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/whatisrtt">What is RTT?</Link>
-              </li>
-              <li>
-                <Link href="/treatment">Treatment</Link>
-              </li>
-              <li>
-                <Link href="/faq">FAQs</Link>
-              </li>
-              <li>
-                <Link href="/about">About Me</Link>
-              </li>
-            </ul>
+            {dropdownMenu}
           </div>
           <a className="btn btn-ghost normal-case text-xl flex items-center">
             <Image

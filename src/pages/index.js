@@ -23,7 +23,7 @@ export default function Home() {
         }}
       >
         <div className="hero-overlay hero-overlay-sm bg-opacity-30"></div>
-        <div className="hero-content text-center text-neutral-content bg-white rounded-lg m-3 p-3">
+        <div className="hero-content text-center text-neutral-content bg-white rounded-lg m-3 p-3 bg-opacity-80 max-w-sm">
           <div className="">
             <h1 className="mb-5 font-bold text-3xl">Welcome</h1>
             <p className="mb-5 text-2.5vw sm:text-4vw">
