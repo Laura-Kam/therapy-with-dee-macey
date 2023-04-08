@@ -6,7 +6,7 @@ import WhatIsRTTContentHomepage from "@/comps/HomepageComponents/WhatIsRTTConten
 import WhoIsMarisaPeerHomepage from "@/comps/HomepageComponents/WhoIsMarisaPeerHomePage";
 import WhatMakesRTTDifferentHomepage from "@/comps/HomepageComponents/WhatMakesRTTDifferentHomepage";
 
-import InfoBoxesHomepage from "@/comps/HomepageComponents/InfoBoxesHomepage";
+import InfoBoxesHomepage from "@/comps/HomepageComponents/InfoBoxesHomePage";
 
 import IssuesTreatedHomepage from "@/comps/HomepageComponents/IssuesTreatedHomepage";
 
