@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const InfoBoxesHomepage = () => {
   return (
-    <div className="outer-div bg-green-700">
+    <div className="outer-div bg-emerald-400">
       <div className="">
         <p className="text-xl mb-2 font-bold text-center p-10">
           What are the benefits of RTT for you? <br />
