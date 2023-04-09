@@ -86,19 +86,19 @@ const Contact = () => {
           </span>
         </h1>
         <div className="stack">
-          <Image
+          {/* <Image
             src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             alt="profile picture of therapist smiling with a green background"
             className="rounded profile-image"
-            height={170}
-            width={200}
+            height={90}
+            width={90}
             layout="fixed"
             objectFit="cover"
             style={{
               borderRadius: "50%",
               margin: "30px",
             }}
-          />
+          /> */}
 
           <p style={{ textAlign: "center", margin: "25px", padding: "20px" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -181,7 +181,9 @@ const Contact = () => {
               />
               {!!errors.message && <p>{errors.message}</p>}
             </label>
-            <button type="submit">Submit</button>
+            <button className="bg-pink-200 border-5" type="submit">
+              Submit
+            </button>
           </div>
         </form>
       </div>

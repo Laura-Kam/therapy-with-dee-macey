@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   const dropdownMenu = isOpen ? (
-    <div className="dropdown-menu mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+    <div className="dropdown-menu mt-3 p-2 shadow bg-base-100 rounded-box">
       <ul className="menu menu-compact">
         <li>
           <Link href="/">Home</Link>

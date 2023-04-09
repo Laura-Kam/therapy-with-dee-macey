@@ -4,7 +4,7 @@ import Image from "next/image";
 const WhatIsRTTContentHomepage = () => {
   return (
     <div className="bg-base-200">
-      <div className="hero-content flex-col lg:flex-row-reverse bg-lime-100 mt-20">
+      <div className="hero-content flex-col lg:flex-row-reverse bg-lime-100 mt-20 max-w-full">
         <img
           src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
           className="max-w-sm rounded-lg shadow-2xl"
