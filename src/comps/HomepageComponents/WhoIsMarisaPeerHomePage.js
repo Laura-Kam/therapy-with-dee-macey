@@ -4,7 +4,7 @@ import Image from "next/image";
 const WhoIsMarisaPeerHomepage = () => {
   return (
     <div className="hero bg-base-200">
-      <div className="hero-content flex-col lg:flex-row bg-lime-100 mt-20 p-10">
+      <div className="hero-content flex-col lg:flex-row bg-lime-100 mt-20 p-0">
         <img
           src="https://images.unsplash.com/photo-1515168985652-8454bcc8fcaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
           className="max-w-sm rounded-lg shadow-2xl"
