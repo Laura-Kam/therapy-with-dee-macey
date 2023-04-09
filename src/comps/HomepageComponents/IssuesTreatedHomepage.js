@@ -19,8 +19,8 @@ const IssuesTreatedHomepage = () => {
       <h1 className="text-xl font-bold mb-10 mt-8 text-center text-teal-950">
         What can RTT be used for?
       </h1>
-      <div className="flex flex-col sm:flex-row gap-4 items-center">
-        <div className="bg-gray-100 p-4 flex-1 mx-20 sm:w-1/3 md:2/3 relative">
+      <div className="flex flex-col sm:flex-row gap-3 items-stretch">
+        <div className="infodiv bg-amber-100 p-2 flex-1 mx-5 relative border border-gray-300 rounded-lg border-30">
           <TbBulb className="mb-5 text-4xl absolute top-4 bottom-3 left-1/2 transform -translate-x-1/2" />
 
           <ul className="list-none mt-12">
@@ -62,9 +62,10 @@ const IssuesTreatedHomepage = () => {
             </li>
           </ul>
         </div>
-        <div className="bg-gray-100 p-4 flex-1 mx-20 sm:w-1/3 md:2/3">
-          <h2 className="text-lg font-bold mb-2 text-center">List 2</h2>
-          <ul className="list-none">
+        <div className="infodiv bg-amber-100 p-2 flex-1 mx-5 relative border border-gray-300 rounded-lg border-30">
+          <TbBulb className="mb-5 text-4xl absolute top-4 bottom-3 left-1/2 transform -translate-x-1/2" />
+
+          <ul className="list-none mt-12">
             <li className="mb-2">
               <TiTickOutline className="inline-block mr-2" />
               Money Blocks
@@ -91,7 +92,7 @@ const IssuesTreatedHomepage = () => {
             </li>
             <li className="mb-2">
               <TiTickOutline className="inline-block mr-2" />
-              PTSD
+              PTSD - Post Traumatic Stress Disorder
             </li>
             <li className="mb-2">
               <TiTickOutline className="inline-block mr-2" />
@@ -103,9 +104,10 @@ const IssuesTreatedHomepage = () => {
             </li>
           </ul>
         </div>
-        <div className="bg-gray-100 p-4 flex-1 mx-20 sm:w-1/3 md:2/3">
-          <h2 className="text-lg font-bold mb-2 text-center">List 2</h2>
-          <ul className="list-none">
+        <div className="infodiv bg-amber-100 p-2 flex-1 mx-5 relative border border-gray-300 rounded-lg border-30">
+          <TbBulb className="mb-5 text-4xl absolute top-4 bottom-3 left-1/2 transform -translate-x-1/2" />
+
+          <ul className="list-none mt-12">
             <li className="mb-2">
               <TiTickOutline className="inline-block mr-2" />
               Pain Control
@@ -114,9 +116,7 @@ const IssuesTreatedHomepage = () => {
               <TiTickOutline className="inline-block mr-2" />
               Addiction - Drinking, Smoking, Drugs, Compulsive Behaviours
             </li>
-            <li className="mb-2">
-              <TiTickOutline className="inline-block mr-2" />
-            </li>
+
             <li className="mb-2">
               <TiTickOutline className="inline-block mr-2" />
               Disconnection
