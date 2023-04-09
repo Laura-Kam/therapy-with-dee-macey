@@ -10,8 +10,8 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const dropdownMenu = isOpen ? (
-    <div className="dropdown-menu mt-3 p-2 shadow bg-base-100 rounded-box">
+  const dropdownMenu = isOpen && (
+    <div className="dropdown-menu mt-3 p-2 shadow bg-base-100 rounded-box lg:hidden">
       <ul className="menu menu-compact">
         <li>
           <Link href="/">Home</Link>
@@ -30,13 +30,13 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
-  ) : null;
+  );
 
   return (
     <nav>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
-          <div className="dropdown">
+          <div>
             <label
               tabIndex={0}
               className="btn btn-ghost lg:hidden"
@@ -57,7 +57,6 @@ const Navbar = () => {
                 />
               </svg>
             </label>
-            {dropdownMenu}
           </div>
           <a className="btn btn-ghost normal-case text-xl flex items-center">
             <Image
@@ -96,6 +95,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
+      {dropdownMenu}
     </nav>
   );
 };
