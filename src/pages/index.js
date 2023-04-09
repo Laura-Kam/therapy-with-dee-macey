@@ -9,6 +9,7 @@ import WhatMakesRTTDifferentHomepage from "@/comps/HomepageComponents/WhatMakesR
 import InfoBoxesHomepage from "@/comps/HomepageComponents/InfoBoxesHomePage";
 
 import IssuesTreatedHomepage from "@/comps/HomepageComponents/IssuesTreatedHomepage";
+import WhatCanRTTBeUsedForHomepage from "@/comps/HomepageComponents/WhatCanRTTBeUsedForHomepage";
 
 export default function Home() {
   return (
@@ -134,6 +135,7 @@ export default function Home() {
       <WhatMakesRTTDifferentHomepage />
       <InfoBoxesHomepage />
       <IssuesTreatedHomepage />
+      <WhatCanRTTBeUsedForHomepage />
     </Layout>
   );
 }
