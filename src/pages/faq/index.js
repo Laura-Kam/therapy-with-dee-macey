@@ -35,36 +35,7 @@ const Testimonials = () => {
           />
         </div>
       </div>
-      <div>
-        <div
-          className="dropdown dropdown-hover"
-          style={{
-            height: "130px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <label
-            tabIndex={0}
-            className="btn m-3"
-            style={{ backgroundColor: "#dde8d8", width: "270px" }}
-          >
-            Choose an option
-          </label>
-          <ul
-            tabIndex={0}
-            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            <li>
-              <a>What is the cost?</a>
-            </li>
-            <li>
-              <a>Item 2</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+
       <div
         style={{
           textAlign: "center",
@@ -73,7 +44,6 @@ const Testimonials = () => {
           backgroundColor: "white",
         }}
       >
-        <div></div>
         <h1 style={{ fontWeight: "bold", fontSize: "20px" }}>
           Click on the options below
         </h1>
@@ -119,64 +89,28 @@ const Testimonials = () => {
               lineHeight: "30px",
             }}
           >
-            Click me to show/hide content
+            Can hypnosis work for everyone?
           </div>
           <div
             className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
-            style={{ textAlign: "center" }}
+            style={{ textAlign: "left" }}
           >
-            <p>hello</p>
-          </div>
-        </div>
-      </div>
-      <div style={{ padding: "0 10px", fontSize: "20px" }}>
-        <div
-          className="collapse"
-          style={{
-            marginLeft: "auto",
-            marginRight: "auto",
-            maxWidth: "950px",
-            Height: "30px",
-
-            lineHeight: "30px",
-          }}
-        >
-          <input type="checkbox" className="peer" />
-          <div
-            className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
-            style={{
-              border: "solid 2px #dde8d8",
-              // borderColor: "black",
-              borderRadius: "50px",
-              backgroundColor: "#dde8d8",
-              textAlign: "center",
-              display: "flex",
-              justifyContent: "center",
-              height: "30px",
-              marginBottom: "12px",
-              lineHeight: "30px",
-            }}
-          >
-            Can hypnotherapy work for everyone?
-          </div>
-          <div className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content text-left">
             <p>
               If you are able to relax, and agree to be hypnotised then yes.
               However, there are certain medical/mental health conditions which
-              would prohibit accessing this therapy i.e. schizophrenia. If you
-              currently find yourself in a state of hyper-vigilance, then it may
-              be that getting you to relax will be the first stage of your
-              journey. Hypnosis is actually a part of everyday life – when we
-              day dream, get lost in a film or experience the sensation of
-              having driven somewhere but cannot remember the journey . . .
-              that’s hypnosis.
+              would prohibit accessing this therapy i.e. schizophrenia. <br />
               <br />
-              <br /> It’s the alteration in brain-wave ‘cycles’ from Beta (alert
-              and engaged) to the Alpha-Theta border, a slower cycle where you
-              are still conscious of your surroundings but your body is in deep
-              relaxation. Hypnosis feels like the point, just before sleep, when
-              you are completely aware of everything (so still in control) but
-              detached and deeply relaxed.
+              If you currently find yourself in a state of hyper-vigilance, then
+              it may be that getting you to relax will be the first stage of
+              your journey. Hypnosis is actually a part of everyday life – when
+              we day dream, get lost in a film or experience the sensation of
+              having driven somewhere but cannot remember the journey . . .
+              that’s hypnosis. <br /> It’s the alteration in brain-wave ‘cycles’
+              from Beta (alert and engaged) to the Alpha-Theta border, a slower
+              cycle where you are still conscious of your surroundings but your
+              body is in deep relaxation. Hypnosis feels like the point, just
+              before sleep, when you are completely aware of everything (so
+              still in control) but detached and deeply relaxed.
             </p>
           </div>
         </div>
@@ -209,51 +143,18 @@ const Testimonials = () => {
               lineHeight: "30px",
             }}
           >
-            Click me to show/hide content
+            How will I feel after a session?
           </div>
-          <div
-            className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
-            style={{ textAlign: "center" }}
-          >
-            <p>hello</p>
-          </div>
-        </div>
-      </div>
-      <div style={{ padding: "0 10px", fontSize: "20px" }}>
-        <div
-          className="collapse"
-          style={{
-            marginLeft: "auto",
-            marginRight: "auto",
-            maxWidth: "950px",
-            Height: "30px",
-
-            lineHeight: "30px",
-          }}
-        >
-          <input type="checkbox" className="peer" />
-          <div
-            className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
-            style={{
-              border: "solid 2px #dde8d8",
-              // borderColor: "black",
-              borderRadius: "50px",
-              backgroundColor: "#dde8d8",
-              textAlign: "center",
-              display: "flex",
-              justifyContent: "center",
-              height: "30px",
-              marginBottom: "12px",
-              lineHeight: "30px",
-            }}
-          >
-            Click me to show/hide content
-          </div>
-          <div
-            className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
-            style={{ textAlign: "center" }}
-          >
-            <p>hello</p>
+          <div className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content text-left">
+            <p>
+              Relieved. Calm. Like a weight has been lifted. Sometimes excited.
+              Some feel surprised that they can remember everything – there is a
+              common misconception that you won’t remember – but you do. The
+              mind operates in complete clarity in hypnosis. However you feel,
+              it’s good to stay with these positive feelings, giving the mind
+              the opportunity to process new thoughts and to discard old and
+              limiting beliefs.
+            </p>
           </div>
         </div>
       </div>
@@ -285,13 +186,279 @@ const Testimonials = () => {
               lineHeight: "30px",
             }}
           >
-            Click me to show/hide content
+            How can this work with only one or two sessions?
           </div>
           <div
             className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
-            style={{ textAlign: "center" }}
+            style={{ textAlign: "left" }}
           >
-            <p>hello</p>
+            <p>
+              RTT works differently to conventional therapies, as less time is
+              spent on ‘what you don’t want’. The focus is always on how you
+              would like your tomorrow to look and feel. Using regression under
+              hypnosis affords the therapist the opportunity through
+              understanding to erase and eradicate thoughts and beliefs that
+              have been holding you back. <br />
+              <br />
+              Because these thoughts and beliefs are embedded in our
+              subconscious, sometimes we are completely unaware that these are
+              controlling and dictating our life choices. Hypnosis and RTT
+              enables the recoding and rewiring of the subconscious mind with
+              your chosen desires and wishes for your future firmly in the line
+              of sight. Each session will require you to listen to your bespoke
+              audio (max. 20 minutes) each day for 21 days. It takes 21 days to
+              create new neural pathways within the brain. 21 days to recode,
+              rewrite and rewire your subconscious with new positive,
+              constructive and restorative beliefs.
+              <br />
+              <br />
+              21 days for a better tomorrow.
+              <br />
+              <br />
+              A therapy session is approximately 90 minutes.
+              <br />
+              <br />
+              Each audio is bespoke. Made especially for you following your
+              therapy session.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div style={{ padding: "0 10px", fontSize: "20px" }}>
+        <div
+          className="collapse"
+          style={{
+            marginLeft: "auto",
+            marginRight: "auto",
+            maxWidth: "950px",
+            Height: "30px",
+
+            lineHeight: "30px",
+          }}
+        >
+          <input type="checkbox" className="peer" />
+          <div
+            className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
+            style={{
+              border: "solid 2px #dde8d8",
+              // borderColor: "black",
+              borderRadius: "50px",
+              backgroundColor: "#dde8d8",
+              textAlign: "center",
+              display: "flex",
+              justifyContent: "center",
+              height: "30px",
+              marginBottom: "12px",
+              lineHeight: "30px",
+            }}
+          >
+            Do I need to be face-face?
+          </div>
+          <div
+            className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
+            style={{ textAlign: "left" }}
+          >
+            <p>
+              No. We care happy to do sessions virtually – whatever will work
+              best for you.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div style={{ padding: "0 10px", fontSize: "20px" }}>
+        <div
+          className="collapse"
+          style={{
+            marginLeft: "auto",
+            marginRight: "auto",
+            maxWidth: "950px",
+            Height: "30px",
+
+            lineHeight: "30px",
+          }}
+        >
+          <input type="checkbox" className="peer" />
+          <div
+            className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
+            style={{
+              border: "solid 2px #dde8d8",
+              // borderColor: "black",
+              borderRadius: "50px",
+              backgroundColor: "#dde8d8",
+              textAlign: "center",
+              display: "flex",
+              justifyContent: "center",
+              height: "30px",
+              marginBottom: "12px",
+              lineHeight: "30px",
+            }}
+          >
+            Will the hypnotherapist be able to control me?
+          </div>
+          <div
+            className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
+            style={{ textAlign: "left" }}
+          >
+            <p>
+              No, absolutely not. When you are in hypnosis you are not asleep.
+              You are completely aware and in control at all times. No therapist
+              will be able to ‘make’ you do anything you choose not to. i.e.
+              divulge your bank account and personal identification number
+              (PIN)! Nor will you share anything you do not wish to whilst in
+              hypnosis. You remain in control of you, at all times.
+            </p>
+          </div>
+        </div>
+        <div style={{ padding: "0 10px", fontSize: "20px" }}>
+          <div
+            className="collapse"
+            style={{
+              marginLeft: "auto",
+              marginRight: "auto",
+              maxWidth: "950px",
+              Height: "30px",
+
+              lineHeight: "30px",
+            }}
+          >
+            <input type="checkbox" className="peer" />
+            <div
+              className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
+              style={{
+                border: "solid 2px #dde8d8",
+                // borderColor: "black",
+                borderRadius: "50px",
+                backgroundColor: "#dde8d8",
+                textAlign: "center",
+                display: "flex",
+                justifyContent: "center",
+                height: "30px",
+                marginBottom: "12px",
+                lineHeight: "30px",
+              }}
+            >
+              If I’m coming to you for trauma – will I be scared?
+            </div>
+            <div
+              className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
+              style={{ textAlign: "left" }}
+            >
+              <p>
+                In hypnosis, events can only be reviewed and not relived. You
+                will see past events as if you are watching from a distance so
+                you will feel safe. You may well feel emotion(s) but this should
+                be seen as a positive as these are the emotions which may be
+                driving a feeling and/or a behaviour you wish to change. Feeling
+                these emotions is short-lived, just while a scene or memory is
+                reviewed and it is during this review that healing begins.
+                <br />
+                <br />
+                Your amazing mind will be choosing your memories to be reviewed
+                – the therapist will have no prior knowledge of where your mind
+                will take you but please be assured that if your mind is taking
+                you there – it will be for a reason. Something in that memory
+                still needs to be seen and/or felt and ultimately understood. It
+                is this understanding that you will take forward out of the
+                session and is an integral part of healing. ‘Ah, so that’s why I
+                feel this way’, ‘Wow – I had no idea that I still carried this
+                with me’ are frequent comments.
+                <br />
+                <br />
+                ‘Enlightenment’ is a good word to describe this process and
+                consequent feelings.
+              </p>
+            </div>
+          </div>
+          <div style={{ padding: "0 10px", fontSize: "20px" }}>
+            <div
+              className="collapse"
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                maxWidth: "950px",
+                Height: "30px",
+
+                lineHeight: "30px",
+              }}
+            >
+              <input type="checkbox" className="peer" />
+              <div
+                className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
+                style={{
+                  border: "solid 2px #dde8d8",
+                  // borderColor: "black",
+                  borderRadius: "50px",
+                  backgroundColor: "#dde8d8",
+                  textAlign: "center",
+                  display: "flex",
+                  justifyContent: "center",
+                  height: "30px",
+                  marginBottom: "12px",
+                  lineHeight: "30px",
+                }}
+              >
+                Can RTT  work for me?
+              </div>
+              <div
+                className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
+                style={{ textAlign: "left" }}
+              >
+                <p>
+                  If your heart’s desire is for change, then RTT can definitely
+                  work for you. This will be dependent on you listening to your
+                  bespoke audio for at least 21 days and for you to be willing
+                  to enter into a ‘hypnosis contract’. This is your willingness
+                  to go into hypnosis with your therapist.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style={{ padding: "0 10px", fontSize: "20px" }}>
+            <div
+              className="collapse"
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                maxWidth: "950px",
+                Height: "30px",
+
+                lineHeight: "30px",
+              }}
+            >
+              <input type="checkbox" className="peer" />
+              <div
+                className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-box"
+                style={{
+                  border: "solid 2px #dde8d8",
+                  // borderColor: "black",
+                  borderRadius: "50px",
+                  backgroundColor: "#dde8d8",
+                  textAlign: "center",
+                  display: "flex",
+                  justifyContent: "center",
+                  height: "30px",
+                  marginBottom: "12px",
+                  lineHeight: "30px",
+                }}
+              >
+                What can RTT be used for?
+              </div>
+              <div
+                className="collapse-content bg-grey-100 text-primary-content peer-checked:bg-white peer-checked:text-secondary-content"
+                style={{ textAlign: "left" }}
+              >
+                <p>
+                   Anxiety  Phobias  Weight issues o Food/Diet o Anorexia o
+                  Bulimia  Confidence  Self-esteem  Motivation  Achieving
+                  Goals  Public speaking  Interview skills  Money blocks 
+                  Trauma  Stress  Panic Attacks  Depression  Guilt  PTSD 
+                  Birth  Birth Trauma  Pain control  Addictions – o Drinking
+                  o Smoking o Drugs o Compulsive behaviours  Disconnection 
+                  Feeling ‘blocked’  Grief  Finding love  Exams  Sexual
+                  problems
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
