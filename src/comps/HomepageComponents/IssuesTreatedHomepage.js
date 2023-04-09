@@ -11,10 +11,11 @@ const IssuesTreatedHomepage = () => {
       </h1>
       <p className="mb-4 text-center m-8 ml-12 mr-10 ">
         If your heart’s desire is for change, then RTT can definitely work for
-        you. This will be dependent on you listening to your bespoke audio for
-        at least 21 days and for you to be willing to enter into a ‘hypnosis
-        contract’. This is your willingness to go into hypnosis with your
-        therapist.
+        you. <br />
+        This will be dependent on you listening to your bespoke audio for at
+        least 21 days and for you to be willing to enter into a ‘hypnosis
+        contract’. <br />
+        This is your willingness to go into hypnosis with your therapist.
       </p>
       <h1 className="text-xl font-bold mb-10 mt-8 text-center text-teal-950">
         What can RTT be used for?
