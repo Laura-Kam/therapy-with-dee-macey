@@ -19,9 +19,9 @@ const InfoBoxesHomepage = () => {
       <div className="">
         <div className="flex flex-wrap justify-center p-5">
           <div className="card w-full sm:w-1/2 md:w-1/2 lg:w-1/5 xl:w-1/5 bg-base-100 shadow-xl mx-2 my-2 bg-slate-50">
-            <figure className="px-3 pt-5">
+            <figure className="px-10 pt-5">
               <img
-                src="https://images.unsplash.com/photo-1604480132715-bd70038b74df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=918&q=80"
+                src="https://images.unsplash.com/photo-1559724087-a45f6a7a35d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=852&q=80"
                 alt="Shoes"
                 className="rounded-xl h-45 sm:h-45 md:h-50 lg:h-50 xl:h-50 w-auto sm:w-55 md:w-60 lg:w-65 xl:w-60"
               />
@@ -29,7 +29,7 @@ const InfoBoxesHomepage = () => {
             <div className="card-body items-center text-center">
               <h2 className="card-title">Weight</h2>
               <p className="text-sm">
-                What weight are you aiming for to feel healthy?
+                What weight would you like to be to feel healthy?
               </p>
             </div>
           </div>
