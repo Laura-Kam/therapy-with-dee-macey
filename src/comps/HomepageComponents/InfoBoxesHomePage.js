@@ -8,11 +8,11 @@ const InfoBoxesHomepage = () => {
         <p className="text-xl mb-2 font-bold text-center p-8">
           What are the benefits of RTT for you? <br />
           <br />
-          <p className="text-xl mt-2 mb-1 font-normal text-center">
+          <span className="text-xl mt-2 mb-1 font-normal text-center">
             Please take a moment to consider what it is you want from your life
             – what would you love to change?
             <br /> What brought you to this page? Some examples . . .
-          </p>
+          </span>
           {/* <span className="pb-5">Issues treated</span> */}
         </p>
       </div>

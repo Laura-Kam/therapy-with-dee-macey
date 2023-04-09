@@ -9,15 +9,15 @@
 nav{ 
     background-color: white;
     color: black;
-    font-family: "Open-Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
 * {
-  font-family: "Open-Sans";
+  font-family: 'Open Sans', sans-serif;
 }
 body {
-    font-family: "Open-Sans";
+  font-family: 'Open Sans', sans-serif;
 }
  
 .footerDiv {
