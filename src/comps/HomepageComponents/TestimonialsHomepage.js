@@ -5,10 +5,7 @@ const TestimonialsHomepage = () => {
   return (
     <div className="carousel w-full">
       <div id="slide1" className="carousel-item relative w-full">
-        <img
-          src="/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-          className="w-full"
-        />
+        <img src="" className="w-full" />
         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide4" className="btn btn-circle">
             ❮
@@ -20,7 +17,7 @@ const TestimonialsHomepage = () => {
       </div>
       <div id="slide2" className="carousel-item relative w-full">
         <img
-          src="/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+          src="https://images.unsplash.com/photo-1666214280165-20e3d73d70bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
           className="w-full"
         />
         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -34,7 +31,7 @@ const TestimonialsHomepage = () => {
       </div>
       <div id="slide3" className="carousel-item relative w-full">
         <img
-          src="/images/stock/photo-1414694762283-acccc27bca85.jpg"
+          src="https://images.unsplash.com/photo-1551847677-dc82d764e1eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
           className="w-full"
         />
         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
