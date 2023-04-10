@@ -15,8 +15,14 @@ const Footer = () => {
         <Link href="/" className="link link-hover">
           Home
         </Link>
+        <Link href="/whatisrtt" className="link link-hover">
+          What is RTT?
+        </Link>
         <Link href="/treatment" className="link link-hover">
           Treatment
+        </Link>
+        <Link href="/articles" className="link link-hover">
+          Articles
         </Link>
         <Link href="/faq" className="link link-hover">
           FAQs
@@ -24,6 +30,7 @@ const Footer = () => {
         <Link href="/about" className="link link-hover">
           About Me
         </Link>
+
         <Link href="/contact" className="link link-hover">
           Contact
         </Link>

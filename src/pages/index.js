@@ -7,7 +7,7 @@ import WhoIsMarisaPeerHomepage from "@/comps/HomepageComponents/WhoIsMarisaPeerH
 import WhatMakesRTTDifferentHomepage from "@/comps/HomepageComponents/WhatMakesRTTDifferentHomepage";
 
 import InfoBoxesHomepage from "@/comps/HomepageComponents/InfoBoxesHomePage";
-import TestimonialsHomepage from "@/comps/HomepageComponents/TestimonialsHomePage";
+import TestimonialsHomepage from "@/comps/HomepageComponents/TestimonialsHomepage";
 
 import IssuesTreatedHomepage from "@/comps/HomepageComponents/IssuesTreatedHomepage";
 import WhatCanRTTBeUsedForHomepage from "@/comps/HomepageComponents/WhatCanRTTBeUsedForHomepage";
@@ -37,7 +37,12 @@ export default function Home() {
               <br></br> Email me at: DeeMaceyTherapy@gmail.com. <br /> I am
               looking forward to working together.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <Link
+              href="/contact"
+              className="btn bg-lime-100 hover:bg-lime-300 font-extrabold"
+            >
+              GET STARTED
+            </Link>
           </div>
         </div>
       </div>

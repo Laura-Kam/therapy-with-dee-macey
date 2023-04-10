@@ -6,7 +6,7 @@ import { TbBulb } from "react-icons/tb";
 const IssuesTreatedHomepage = () => {
   return (
     <div className="bg-white p-4">
-      <h1 className="text-xl font-bold mb-2 text-center mt-6">
+      <h1 className="text-xl font-bold mb-2 text-center mt-6 text-teal-950">
         Can RTT work for me?
       </h1>
       <p className="mb-4 text-center m-8 ml-12 mr-10 ">

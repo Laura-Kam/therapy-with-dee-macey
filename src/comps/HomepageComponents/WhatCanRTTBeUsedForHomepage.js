@@ -6,12 +6,7 @@ import { FaGoogle } from "react-icons/fa";
 import { TiTickOutline } from "react-icons/ti";
 
 const WhatCanRTTBeUsedForHomepage = () => {
-  return (
-    <button>
-      <FaGoogle /> Sign in with Google
-      <TiTickOutline />
-    </button>
-  );
+  return <button></button>;
 };
 
 export default WhatCanRTTBeUsedForHomepage;

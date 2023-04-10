@@ -29,7 +29,12 @@ const WhatMakesRTTDifferentHomepage = () => {
             two or sometime three sessions – depending on the complexity and
             what is the right fit for you.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <Link
+            href="/contact"
+            className="btn bg-lime-100 hover:bg-lime-300 font-extrabold"
+          >
+            GET STARTED
+          </Link>
         </div>
       </div>
     </div>

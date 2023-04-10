@@ -12,13 +12,6 @@ const WhoIsMarisaPeerHomepage = () => {
         <div className="m-12">
           <h1 className="text-2xl font-bold">Who is Marissa Peer?</h1>
           <p className="py-6">
-            Having studied under the celebrated and esteemed hypnotherapist Gil
-            Boyne, Marisa went on to develop a hybrid therapy that offers
-            unparalleled results. RTT&#174; combines the most beneficial
-            principles of hypnotherapy, NLP, psychotherapy and CBT. Having been
-            highly successful in her field, Marisa has worked with celebrities,
-            professionals, business leaders, Olympians and sports teams. <br />
-            <br />
             Marisa’s RTT&#174; uses hypnotherapy to access the subconscious
             mind, psychotherapy to help you discover the root or the cause of
             the issue and then a combination of CBT and NLP to transform how you
@@ -30,7 +23,6 @@ const WhoIsMarisaPeerHomepage = () => {
             been chosen both for you and by you, as you move forwards with your
             life.
           </p>
-          <button className="btn btn-primary">Get Started</button>
         </div>
       </div>
     </div>

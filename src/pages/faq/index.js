@@ -1,7 +1,7 @@
 import Layout from "../../comps/Layout";
 import Image from "next/image";
 
-const Testimonials = () => {
+const FAQs = () => {
   return (
     <Layout>
       <div
@@ -466,4 +466,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default FAQs;

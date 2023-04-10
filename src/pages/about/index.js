@@ -1,6 +1,7 @@
 import Layout from "../../comps/Layout";
 import styles from "../../styles/About.module.css";
 import HeroImageAboutMe from "@/comps/HeroImageAboutMe";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -25,11 +26,10 @@ const About = () => {
               experienced for myself using RTT&#174; and have been privileged to
               witness first-hand whilst training alongside Marisa Peer.
             </p>
-            <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>
-      <div className="hero  bg-base-200">
+      <div className="hero bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="https://images.unsplash.com/photo-1589733126193-a91e19b91ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3ViY29uc2Npb3VzJTIwJTIwbWluZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
@@ -83,7 +83,12 @@ const About = () => {
                 <span className="not-italic">Tony Robinson?</span>
               </p>
             </p>
-            <button className="btn btn-primary">Try a Discovery Call</button>
+            <Link
+              href="/contact"
+              className="btn bg-lime-100 hover:bg-lime-300 font-extrabold"
+            >
+              Try a discovery call
+            </Link>
           </div>
         </div>
       </div>

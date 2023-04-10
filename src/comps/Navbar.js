@@ -23,10 +23,16 @@ const Navbar = () => {
           <Link href="/treatment">Treatment</Link>
         </li>
         <li>
-          <Link href="/faq">FAQs</Link>
+          <Link href="/articles">Articles</Link>
+        </li>
+        <li>
+          <Link href="/testimonials">Testimonials</Link>
         </li>
         <li>
           <Link href="/about">About Me</Link>
+        </li>
+        <li>
+          <Link href="/faq">FAQs</Link>
         </li>
       </ul>
     </div>
@@ -82,6 +88,12 @@ const Navbar = () => {
               <Link href="/treatment">Treatment</Link>
             </li>
             <li>
+              <Link href="/articles">Articles</Link>
+            </li>
+            <li>
+              <Link href="/testimonials">Testimonials</Link>
+            </li>
+            <li>
               <Link href="/faq">FAQs</Link>
             </li>
             <li>
@@ -90,7 +102,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link href="/contact" className="btn">
+          <Link
+            href="/contact"
+            className="btn bg-lime-100 hover:bg-lime-300 font-extrabold"
+          >
             CONTACT ME
           </Link>
         </div>
