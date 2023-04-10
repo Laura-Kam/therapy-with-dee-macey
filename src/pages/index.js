@@ -7,6 +7,7 @@ import WhoIsMarisaPeerHomepage from "@/comps/HomepageComponents/WhoIsMarisaPeerH
 import WhatMakesRTTDifferentHomepage from "@/comps/HomepageComponents/WhatMakesRTTDifferentHomepage";
 
 import InfoBoxesHomepage from "@/comps/HomepageComponents/InfoBoxesHomePage";
+import TestimonialsHomepage from "@/comps/HomepageComponents/TestimonialsHomePage";
 
 import IssuesTreatedHomepage from "@/comps/HomepageComponents/IssuesTreatedHomepage";
 import WhatCanRTTBeUsedForHomepage from "@/comps/HomepageComponents/WhatCanRTTBeUsedForHomepage";
@@ -136,6 +137,7 @@ export default function Home() {
       <InfoBoxesHomepage />
       <IssuesTreatedHomepage />
       <WhatCanRTTBeUsedForHomepage />
+      <TestimonialsHomepage />
     </Layout>
   );
 }
