@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const TestimonialsHomepage = () => {
   return (
-    <div className="carousel w-full">
+    <div className="carousel w-max-sm">
       <div id="slide1" className="carousel-item relative w-full">
-        <img src="" className="w-full" />
+        <img src="" className="w-5" />
         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide4" className="btn btn-circle">
             ❮
