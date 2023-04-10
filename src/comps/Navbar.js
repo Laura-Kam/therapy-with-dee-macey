@@ -104,7 +104,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <Link
             href="/contact"
-            className="btn bg-lime-100 hover:bg-lime-300 font-extrabold"
+            className="btn bg-amber-50 hover:bg-amber-200 font-extrabold"
           >
             CONTACT ME
           </Link>

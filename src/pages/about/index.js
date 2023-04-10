@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Layout>
       <HeroImageAboutMe />
-      <div className="hero bg-base-200">
+      <div className="bg-base-200">
         <div className="hero-content flex-col lg:flex-row">
           <img
             src="https://images.unsplash.com/photo-1574706472790-f24ebe0510ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -29,7 +29,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="hero bg-base-200">
+      <div className="bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="https://images.unsplash.com/photo-1589733126193-a91e19b91ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3ViY29uc2Npb3VzJTIwJTIwbWluZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
@@ -85,7 +85,7 @@ const About = () => {
             </p>
             <Link
               href="/contact"
-              className="btn bg-lime-100 hover:bg-lime-300 font-extrabold"
+              className="btn bg-amber-50 hover:bg-amber-200 font-extrabold"
             >
               Try a discovery call
             </Link>

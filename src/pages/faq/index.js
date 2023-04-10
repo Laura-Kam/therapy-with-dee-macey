@@ -5,7 +5,7 @@ const FAQs = () => {
   return (
     <Layout>
       <div
-        className="hero h-[70vh] bg-cover"
+        className="h-[70vh] bg-cover"
         style={{
           backgroundImage: `url(https://images.unsplash.com/photo-1546387903-6d82d96ccca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80)`,
           backgroundPosition: "top 100%",

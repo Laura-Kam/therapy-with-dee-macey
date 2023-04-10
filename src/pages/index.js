@@ -39,7 +39,7 @@ export default function Home() {
             </p>
             <Link
               href="/contact"
-              className="btn bg-lime-100 hover:bg-lime-300 font-extrabold"
+              className="btn bg-amber-50 hover:bg-amber-200 font-extrabold"
             >
               GET STARTED
             </Link>

@@ -5,7 +5,7 @@ import Link from "next/link";
 const Treatment = () => {
   return (
     <Layout>
-      <div className="text-center my-2 px-2 py-2 sm:py-7 mt-9">
+      {/* <div className="text-center my-2 px-2 py-2 sm:py-7 mt-9">
         <h1 className="font-bold text-0.5xl sm:text-1xl md:text-2xl lg:text-3xl mb-10">
           Specialist Area - RTT&#174; for Birth Trauma
         </h1>
@@ -116,12 +116,12 @@ const Treatment = () => {
         <div className="flex items-center justify-center h-full p-10">
           <Link
             href="/contact"
-            className="btn bg-lime-100 hover:bg-lime-300 font-extrabold"
+            className="btn bg-amber-50 hover:bg-amber-200 font-extrabold"
           >
             Click here for a free discovery call
           </Link>
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 };

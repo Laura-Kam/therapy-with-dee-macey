@@ -5,7 +5,7 @@ import roundedLogo from "../../../public/rttroundedlogo.png";
 const WhatMakesRTTDifferentHomepage = () => {
   return (
     <div
-      className="hero min-h-screen"
+      className="min-h-screen"
       style={{
         backgroundImage: `url("/images/stock/photo-1507358522600-9f71e620c44e.jpg")`,
       }}
@@ -31,7 +31,7 @@ const WhatMakesRTTDifferentHomepage = () => {
           </p>
           <Link
             href="/contact"
-            className="btn bg-lime-100 hover:bg-lime-300 font-extrabold"
+            className="btn bg-amber-50 hover:bg-amber-200 font-extrabold"
           >
             GET STARTED
           </Link>

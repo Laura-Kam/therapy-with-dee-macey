@@ -66,49 +66,19 @@ const Contact = () => {
 
   return (
     <Layout>
-      <div
-        style={{
-          textAlign: "center",
-          margin: "0px",
-          padding: "40px",
-          backgroundColor: "#D6eadf",
-        }}
-      >
-        <h1 style={{ fontWeight: "bold", fontSize: "20px" }}>
+      <div className="text-center m-0 p-20 bg-green-100">
+        <h1 className="font-bold text-lg">
           Contact Me
-          <br></br>
-          <span style={{ fontWeight: "normal", fontSize: "20px" }}>
+          <br />
+          <span className="font-normal text-lg">
             Our first consultation is free
           </span>
-          <br></br>
-          <span style={{ fontSize: "17px", fontWeight: "normal" }}>
-            Let&apos;s start your journey
+          <br />
+          <span className="font-normal text-base">
+            Let us start your journey
           </span>
         </h1>
-        <div className="stack">
-          {/* <Image
-            src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-            alt="profile picture of therapist smiling with a green background"
-            className="rounded profile-image"
-            height={90}
-            width={90}
-            layout="fixed"
-            objectFit="cover"
-            style={{
-              borderRadius: "50%",
-              margin: "30px",
-            }}
-          /> */}
 
-          <p style={{ textAlign: "center", margin: "25px", padding: "20px" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.{" "}
-          </p>
-        </div>
         <form style={{ margin: "30px" }} onSubmit={handleFormSubmit}>
           <div
             className="form-control, input-bordered"
@@ -140,7 +110,7 @@ const Contact = () => {
             </label>
             <label className="input-group input-group-vertical">
               <span style={{ width: "500px", margin: "11px" }}>
-                Email address
+                Email Address
               </span>
               <input
                 type="text"
@@ -181,7 +151,10 @@ const Contact = () => {
               />
               {!!errors.message && <p>{errors.message}</p>}
             </label>
-            <button className="bg-pink-200 border-5" type="submit">
+            <button
+              class="bg-amber-50 border-2 border-black rounded-full py-2 px-4 inline-block text-black hover:text-black  hover:bg-amber-200 focus:outline-none focus:shadow-outline m-5"
+              type="submit"
+            >
               Submit
             </button>
           </div>

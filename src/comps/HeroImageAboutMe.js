@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const HeroImageAboutMe = () => {
   return (
-    <div className="hero bg-base-200">
+    <div className="bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
