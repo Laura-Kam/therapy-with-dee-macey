@@ -5,7 +5,7 @@ import roundedLogo from "../../../public/rttroundedlogo.png";
 const WhatMakesRTTDifferentHomepage = () => {
   return (
     <div
-      className="min-h-screen"
+      className="hero min-h-screen"
       style={{
         backgroundImage: `url("/images/stock/photo-1507358522600-9f71e620c44e.jpg")`,
       }}
