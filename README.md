@@ -71,12 +71,13 @@ Through 'npm run dev' the website will run. The local host server will start on 
 
 I used Vercel for deployment. [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## License
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=GitHub&logoColor=white)
+
 Free images taken from Unsplash.com
 
 ## Screenshot
@@ -89,7 +90,7 @@ Free images taken from Unsplash.com
 
 ## Bugs
 
-- Flexbox divs causing overspill. Issue solved by removing 'hero' classes from Daisy UI and shortening size of footer links.
+- The flexbox divs were causing overspill. Issue solved by removing 'hero' classes from Daisy UI and shortening size of footer links.
 
 ## Version history
 
@@ -106,7 +107,7 @@ Free images taken from Unsplash.com
 
 ## Contributing
 
-A special thanks to Jordi Lanau for helping me to get unstuck and beign so willing to support me on this project whatever time of day.
+A special thanks to Jordi Lanau for helping me to get unstuck and being so willing to support me on this project whatever time of day.
 
 To contribute to the repo yourself please:
 
