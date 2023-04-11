@@ -66,38 +66,25 @@ const Contact = () => {
 
   return (
     <Layout>
-      <div className="text-center m-0 p-20 bg-green-100">
-        <h1 className="font-bold text-lg">
-          Contact Me
-          <br />
-          <span className="font-normal text-lg">
-            Our first consultation is free
-          </span>
-          <br />
-          <span className="font-normal text-base">
-            Let us start your journey
-          </span>
-        </h1>
-
-        <form style={{ margin: "30px" }} onSubmit={handleFormSubmit}>
-          <div
-            className="form-control, input-bordered"
-            style={{
-              width: "500px",
-              margin: "auto",
-              backgroundColor: "##FFB6C1",
-            }}
-          >
+      <div className="text-center m-0 p-20 bg-sky-100">
+        <div className="upperTextContactForm">
+          <h1 className="font-bold text-lg">
+            Contact Me
+            <br />
+            <span className="font-normal text-lg">
+              Our first consultation is free
+            </span>
+            <br />
+            <span className="font-normal text-base">
+              Let us start your journey
+            </span>
+          </h1>
+        </div>
+        {/* formdiv */}
+        <div className="w-full sm:w-2/3 md:w-1/2 lg:w-1/3 mx-auto bg-sky-100 form-control input-bordered mt-10 h-1/5">
+          <form onSubmit={handleFormSubmit}>
             <label className="input-group input-group-vertical">
-              <span
-                style={{
-                  width: "500px",
-                  margin: "11px",
-                  backgroundColor: "#FOFOFO",
-                }}
-              >
-                Enter your First Name and Surname
-              </span>
+              <span className="w-auto m-5 h-50">First Name and Surname</span>
               <input
                 type="text"
                 className="input input-bordered"
@@ -109,9 +96,7 @@ const Contact = () => {
               {!!errors.name && <p>{errors.name}</p>}
             </label>
             <label className="input-group input-group-vertical">
-              <span style={{ width: "500px", margin: "11px" }}>
-                Email Address
-              </span>
+              <span className="w-auto m-5 h-50">Email Address</span>
               <input
                 type="text"
                 className="input input-bordered"
@@ -123,9 +108,7 @@ const Contact = () => {
               {!!errors.email && <p>{errors.email}</p>}
             </label>
             <label className="input-group input-group-vertical">
-              <span style={{ width: "500px", margin: "11px" }}>
-                Mobile Phone Number
-              </span>
+              <span className="w-auto m-5 h-50">Mobile Phone Number</span>
               <input
                 type="text"
                 className="input input-bordered"
@@ -137,13 +120,10 @@ const Contact = () => {
               {!!errors.phoneNumber && <p>{errors.phoneNumber}</p>}
             </label>
             <label className="input-group input-group-vertical">
-              <span style={{ width: "500px", margin: "11px" }}>
-                Type Your Message Below
-              </span>
+              <span className="w-auto m-5 h-3/5">Type Your Message Below</span>
               <textarea
                 type="text"
-                className="input input-bordered"
-                style={{ height: "250px", verticalAlign: "top" }}
+                className="input input-bordered h-40 resize"
                 name="message"
                 id="message"
                 value={formState.message}
@@ -151,14 +131,15 @@ const Contact = () => {
               />
               {!!errors.message && <p>{errors.message}</p>}
             </label>
+
             <button
-              class="bg-amber-50 border-2 border-black rounded-full py-2 px-4 inline-block text-black hover:text-black  hover:bg-amber-200 focus:outline-none focus:shadow-outline m-5"
+              className="bg-amber-50 border-2 border-black rounded-full py-2 px-4 inline-block text-black hover:text-black  hover:bg-amber-200 focus:outline-none focus:shadow-outline m-5"
               type="submit"
             >
               Submit
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </Layout>
   );
