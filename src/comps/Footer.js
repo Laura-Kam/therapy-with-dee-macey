@@ -11,11 +11,11 @@ const Footer = () => {
         fontSize: "16px",
       }}
     >
-      <div className="footerDiv grid grid-flow-col gap-4">
+      <div className="footerDiv grid grid-flow-col gap-4 md:flex md:flex-col md:items-center">
         <Link href="/" className="link link-hover">
           Home
         </Link>
-        <Link href="/whatisrtt" className="link link-hover">
+        {/* <Link href="/whatisrtt" className="link link-hover">
           What is RTT?
         </Link>
         <Link href="/treatment" className="link link-hover">
@@ -23,7 +23,7 @@ const Footer = () => {
         </Link>
         <Link href="/articles" className="link link-hover">
           Articles
-        </Link>
+        </Link> */}
         <Link href="/faq" className="link link-hover">
           FAQs
         </Link>
@@ -35,7 +35,7 @@ const Footer = () => {
           Contact
         </Link>
       </div>
-      <div>
+      <div className="mt-4">
         <div className="grid grid-flow-col gap-4">
           <a>
             <svg
@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p>Copyright © 2023 Laura Kam WebDEV Development</p>
+        <p>Copyright © 2023 Laura Kam Web Development</p>
       </div>
     </footer>
   );
