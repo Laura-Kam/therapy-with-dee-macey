@@ -7,18 +7,18 @@ const IssuesTreatedHomepage = () => {
   return (
     <div className="bg-white p-4">
       <h1 className="text-xl font-bold mb-2 text-center mt-6 text-teal-950">
-        Can RTT work for me?
+        Can RTT&#174; work for me?
       </h1>
       <p className="mb-4 text-center m-8 ml-12 mr-10 ">
-        If your heart’s desire is for change, then RTT can definitely work for
-        you. <br />
+        If your heart’s desire is for change, then RTT&#174; can definitely work
+        for you. <br />
         This will be dependent on you listening to your bespoke audio for at
         least 21 days and for you to be willing to enter into a ‘hypnosis
         contract’. <br />
         This is your willingness to go into hypnosis with your therapist.
       </p>
       <h1 className="text-xl font-bold mb-10 mt-8 text-center text-teal-950">
-        What can RTT be used for?
+        What can RTT&#174; be used for?
       </h1>
       <div className="flex flex-col sm:flex-row gap-3 items-stretch">
         <div className="infodiv bg-amber-100 p-2 flex-1 mx-5 relative border border-gray-300 rounded-lg border-30">

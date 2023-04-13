@@ -38,7 +38,7 @@ const Articles = () => {
           How is RTT different to traditional hypnotherapy?
         </p> */}
         <p className="text-xl mt-16 bg-lime-50 p-10">
-          I am Licensed Rapid Transformational Therapy Practitioner. Rapid
+          I am Licensed Rapid Transformational Therapy&#174; Practitioner. Rapid
           Transformational Therapy or RTT is a modality created by UK&#39;s top
           therapist Marisa Peer and combines the best from hypnotherapy, NLP,
           and traditional psychotherapy. That in essence means that, unlike

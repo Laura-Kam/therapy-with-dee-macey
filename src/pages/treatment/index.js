@@ -40,8 +40,9 @@ const Treatment = () => {
           to ourselves, or to our partners and our families. Some experience a
           disconnect from self and from those who should be closest to us at a
           time, we are told, which should be the happiest in our lives. This is
-          where Rapid Transformational Therapy  steps into its power to assist
-          you to make sense of these events and feelings.ssget back to you.
+          where Rapid Transformational Therapy&#174; steps into its power to
+          assist you to make sense of these events and feelings.ssget back to
+          you.
         </p>
         <p className="text-xl font-bold text-center mt-16">
           How treatment works
@@ -65,17 +66,18 @@ const Treatment = () => {
           and retell events). By carefully accessing the subconscious mind –
           where events and experiences are ‘laid down’ as they were perceived at
           the time; embedded with the feelings and the meanings attributed at
-          that space in time. RTT  moves straight to the heart of the issue,
-          taking you safely back, to the root, the reason, the cause of your
-          disquiet and /or unhappiness or unwanted behaviour and facilitates a
-          review of these scenes. This gives us the amazing opportunity to
-          successfully alter our feelings and our perspectives. With me by your
-          side, the episode is viewed from the standpoint of what you know now -
-          from the knowledge you have gained since, and without the contributing
-          effects of all that was going on at the time. All of the ‘white-noise’
-          which surrounds a trauma event - the emotions, the unknowns and
-          corresponding power imbalance, the time pressures, the unfamiliar
-          environment, jargon, the people, and of course, the fears.
+          that space in time. RTT&#174; moves straight to the heart of the
+          issue, taking you safely back, to the root, the reason, the cause of
+          your disquiet and /or unhappiness or unwanted behaviour and
+          facilitates a review of these scenes. This gives us the amazing
+          opportunity to successfully alter our feelings and our perspectives.
+          With me by your side, the episode is viewed from the standpoint of
+          what you know now - from the knowledge you have gained since, and
+          without the contributing effects of all that was going on at the time.
+          All of the ‘white-noise’ which surrounds a trauma event - the
+          emotions, the unknowns and corresponding power imbalance, the time
+          pressures, the unfamiliar environment, jargon, the people, and of
+          course, the fears.
         </p>
         <p className="text-xl mt-16 bg-gray-100 p-10">
           This enables us to work together to move through these events from a
@@ -85,9 +87,9 @@ const Treatment = () => {
           a way to move forwards.
         </p>
         <p className="text-xl mt-16 bg-gray-100 p-10">
-          Rapid Transformational Therapy  is used worldwide for the effective
-          treatment of trauma and post-traumatic stress disorder (PTSD) and
-          loss.
+          Rapid Transformational Therapy&#174; is used worldwide for the
+          effective treatment of trauma and post-traumatic stress disorder
+          (PTSD) and loss.
         </p>
         <p className="text-xl mt-16 bg-gray-100 p-10">
           It is used successfully for the treatment of anxiety, flash-backs and
@@ -104,9 +106,9 @@ const Treatment = () => {
           felt’. So join with me to move those feelings out into the light where
           they can be safely seen, heard, understood and altered forever so they
           no longer need to be felt by you. <br /> <br />
-          Rapid Transformational Therapy  is used worldwide for the effective
-          treatment of trauma and post-traumatic stress disorder (PTSD) and
-          loss.
+          Rapid Transformational Therapy&#174; is used worldwide for the
+          effective treatment of trauma and post-traumatic stress disorder
+          (PTSD) and loss.
         </p>
 
         <p className="text-xl mt-16 text-center">

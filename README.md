@@ -4,11 +4,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This website was created as my first real-world project for a therapist website. I used Next.js and Tailwind CSS as well as Daisy UI to style my components.
 
-I thoroughly enjoyed seeing my first real-world project to completion.
+I thoroughly enjoyed seeing through my first real-world project to completion.
 
 # Description
 
-In this website you can find information regarding Rapid Transformational Therapy, by Marissa Peer and RTT therapist Macey Dee.
+In this website you can find information regarding Rapid Transformational Therapy, by Marissa Peer and RTT&#174; therapist Macey Dee.
 
 ## Table of Contents
 

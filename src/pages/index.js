@@ -8,6 +8,7 @@ import WhatMakesRTTDifferentHomepage from "@/comps/HomepageComponents/WhatMakesR
 
 import InfoBoxesHomepage from "@/comps/HomepageComponents/InfoBoxesHomePage";
 import TestimonialsHomepage from "@/comps/HomepageComponents/TestimonialsHomepage";
+import BenefitsHomepage from "@/comps/HomepageComponents/BenefitsHomepage";
 
 import IssuesTreatedHomepage from "@/comps/HomepageComponents/IssuesTreatedHomepage";
 import WhatCanRTTBeUsedForHomepage from "@/comps/HomepageComponents/WhatCanRTTBeUsedForHomepage";
@@ -32,8 +33,8 @@ export default function Home() {
               <span className="text-lg"> How can I help? My name is Dee.</span>
               <br />
               <br /> I am a Certified Hypnotherapist, <br />
-              Rapid Transformational Therapy Therapist <br></br>and a Registered
-              Midwife. <br />
+              Rapid Transformational Therapy&#174; Therapist <br></br>and a
+              Registered Midwife. <br />
               <br></br> Email me at: DeeMaceyTherapy@gmail.com. <br /> I am
               looking forward to working together.
             </p>
@@ -118,7 +119,7 @@ export default function Home() {
           might be easier to consider what is it you want? What would you like
           to change? What would your better tomorrow look like? Have you ever
           considered something different?. . . Rapid Transformational
-          Therapy&copy;.
+          Therapy&#174;.
         </p>
       </div>
       <div>
@@ -142,6 +143,7 @@ export default function Home() {
       <InfoBoxesHomepage />
       <IssuesTreatedHomepage />
       <WhatCanRTTBeUsedForHomepage />
+      <BenefitsHomepage />
       <TestimonialsHomepage />
     </Layout>
   );

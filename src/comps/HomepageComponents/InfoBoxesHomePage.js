@@ -6,7 +6,8 @@ const InfoBoxesHomepage = () => {
     <div className="outer-div bg-sky-200 mb-18">
       <div className="">
         <p className="text-xl mb-2 font-bold text-center p-8 text-teal-950">
-          What are the benefits of RTT for you? <br />
+          What can RTT help me with?
+          <br />
           <br />
           <span className="text-xl mt-2 mb-1 font-normal text-center">
             Please take a moment to consider what it is you want from your life

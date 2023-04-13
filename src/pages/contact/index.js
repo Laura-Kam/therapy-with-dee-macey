@@ -72,16 +72,12 @@ const Contact = () => {
             Contact Me
             <br />
             <span className="font-normal text-lg">
-              Our first consultation is free
-            </span>
-            <br />
-            <span className="font-normal text-base">
-              Let us start your journey
+              Your first consultation is free
             </span>
           </h1>
         </div>
         {/* formdiv */}
-        <div className="w-full sm:w-2/3 md:w-1/2 lg:w-1/3 mx-auto bg-sky-100 form-control input-bordered mt-10 h-1/5">
+        <div className="w-full sm:w-1/3 md:w-1/2 lg:w-1/3 mx-auto bg-sky-100 form-control input-bordered mt-10 h-1/5">
           <form onSubmit={handleFormSubmit}>
             <label className="input-group input-group-vertical">
               <span className="w-auto m-5 h-50">First Name and Surname</span>
@@ -123,7 +119,7 @@ const Contact = () => {
               <span className="w-auto m-5 h-3/5">Type Your Message Below</span>
               <textarea
                 type="text"
-                className="input input-bordered h-40 resize"
+                className="input input-bordered h-60 resize-y"
                 name="message"
                 id="message"
                 value={formState.message}
