@@ -10,7 +10,7 @@ const Testimonials = () => {
             Testimonials <br />
             <br />
             <span className="text-xl mt-2 mb-1 font-normal text-center">
-              Read what my former clients have to say
+              Read what my clients have to say
             </span>
             {/* <span className="pb-5">Issues treated</span> */}
           </p>
@@ -25,7 +25,7 @@ const Testimonials = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Dawn, Essex</h2>
-              <p>One Session</p>
+              <p>One Cycle</p>
               <p>
                 I have been working with Dee for a month now and I am very
                 impressed and over the moon with the results.
@@ -56,7 +56,7 @@ const Testimonials = () => {
             <div className="card-body">
               <h2 className="card-title">Jayne, Suffolk</h2>
               <p>
-                2 Sessions - Jayne is now happy with her weight loss journey and
+                2 Cycles - Jayne is now happy with her weight loss journey and
                 requires no further input.
               </p>
               <p>

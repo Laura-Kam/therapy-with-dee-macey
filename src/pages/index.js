@@ -30,7 +30,7 @@ export default function Home() {
           <div className="">
             <h1 className="mb-5 font-bold text-3xl">Welcome</h1>
             <p className="mb-5 text-2.5vw sm:text-4vw">
-              <span className="text-lg"> How can I help? My name is Dee.</span>
+              <span className="text-lg">My name is Dee.</span>
               <br />
               <br /> I am a Certified Hypnotherapist, <br />
               Rapid Transformational Therapy&#174; Therapist <br></br>and a

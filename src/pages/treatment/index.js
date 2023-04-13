@@ -7,7 +7,8 @@ const Treatment = () => {
     <Layout>
       <div className="text-center my-2 px-2 py-2 sm:py-7 mt-9">
         <h1 className="font-bold text-0.5xl sm:text-1xl md:text-2xl lg:text-3xl mb-10">
-          Specialist Area - RTT&#174; for Birth Trauma
+          Specialist Area - RTT&#174; for Birth, Birth Fears and Anxieties
+          (Tocophobia) <br /> and Post-Birth Trauma
         </h1>
         <div className="mx-auto">
           <Image
