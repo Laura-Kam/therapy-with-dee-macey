@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link href="/whatisrtt">What is RTT?</Link>
         </li>
         <li>
-          <Link href="/treatment">Treatment</Link>
+          <Link href="/specialistarea">Specialist Area</Link>
         </li>
         <li>
           <Link href="/articles">Articles</Link>
@@ -85,7 +85,7 @@ const Navbar = () => {
               <Link href="/whatisrtt">What is RTT?</Link>
             </li>
             <li>
-              <Link href="/treatment">Treatment</Link>
+              <Link href="/specialistarea">Specialist Area</Link>
             </li>
             <li>
               <Link href="/articles">Articles</Link>

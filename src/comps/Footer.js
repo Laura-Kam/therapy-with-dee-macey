@@ -19,8 +19,8 @@ const Footer = () => {
         <Link href="/whatisrtt" className="link link-hover">
           What is RTT&#174;?
         </Link>
-        <Link href="/treatment" className="link link-hover">
-          Treatment
+        <Link href="/specialistarea" className="link link-hover">
+          Specialist Area
         </Link>
         <Link href="/articles" className="link link-hover">
           Articles

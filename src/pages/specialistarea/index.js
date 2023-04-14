@@ -2,7 +2,7 @@ import Layout from "../../comps/Layout";
 import Image from "next/image";
 import Link from "next/link";
 
-const Treatment = () => {
+const SpecialistArea = () => {
   return (
     <Layout>
       <div className="text-center my-2 px-2 py-2 sm:py-7 mt-9">
@@ -129,7 +129,7 @@ const Treatment = () => {
   );
 };
 
-export default Treatment;
+export default SpecialistArea;
 
 import React from "react";
 // import 'daisyui/dist/daisyui.css';

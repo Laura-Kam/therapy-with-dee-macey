@@ -7,7 +7,7 @@ import { HiChevronRight } from "react-icons/hi";
 
 const BenefitsHomepage = () => {
   return (
-    <div className="bg-white p-4 bg-blue-400 mb-10">
+    <div className="p-4 bg-blue-400 mb-10">
       <h1 className="text-xl font-bold mb-6 text-center mt-6 text-white">
         How can RTT&#174; benefit me?
       </h1>
