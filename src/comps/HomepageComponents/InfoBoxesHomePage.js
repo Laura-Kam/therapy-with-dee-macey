@@ -28,9 +28,9 @@ const InfoBoxesHomepage = () => {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Weight</h2>
+              <h2 className="card-title">Image, Self-Esteem and Confidence</h2>
               <p className="text-sm">
-                What weight would you like to be to feel healthy?
+                What size would you like to be to feel healthy?
               </p>
             </div>
           </div>
@@ -63,7 +63,15 @@ const InfoBoxesHomepage = () => {
             <div className="card-body items-center text-center">
               <h2 className="card-title">An addiction</h2>
               <p className="text-sm">
-                An addiction. Would you like to stop smoking once and for all?
+                {/* //change this */}
+                An addiction can be any action that takes you from a bad feeling
+                to a good feeling. <br /> <br />
+                All addictions are habits of thought. Habits of thought lead to
+                habits of action. Change your thoughts <br />
+                <br />
+                Change your actions
+                <br />
+                <br /> Changes your habits equals freedom from addiction.
               </p>
             </div>
           </div>
@@ -124,7 +132,9 @@ const InfoBoxesHomepage = () => {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Negative Repetitive Thoughts</h2>
+              <h2 className="card-title">
+                Negative Repetitive and Looping Thoughts
+              </h2>
               <p className="text-sm">
                 ‘Relationships don’t work for me and it will always be this
                 way’.
