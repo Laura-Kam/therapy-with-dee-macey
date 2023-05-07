@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Layout from '../../comps/Layout';
 import { MessageSchema } from '../../utils/MessageSchema';
+import MessageModal from '@/comps/MessageModal';
 
 const Contact = () => {
   const initialState = {
@@ -12,6 +13,8 @@ const Contact = () => {
 
   const [formState, setFormState] = useState(initialState);
   const [errors, setErrors] = useState({});
+  const [displayMessage, setDisplayMessage] = useState(false);
+  const [response, setResponse] = useState({});
 
   function handleFormChange(event) {
     const { name, value } = event.target;
@@ -32,6 +35,8 @@ const Contact = () => {
     });
 
     const data = await response.json();
+    setResponse(data);
+    setDisplayMessage(true)
     if (response.ok) {
       console.log('success:', data);
     } else {
@@ -48,6 +53,7 @@ const Contact = () => {
       case true:
         setErrors({});
         sendMessage(formData.data);
+        setFormState(initialState);
         break;
       case false:
         const formattedErrors = formData.error.format();
@@ -131,6 +137,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      {displayMessage && <MessageModal {...response} />}
     </Layout>
   );
 };
